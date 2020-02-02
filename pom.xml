@@ -283,27 +283,11 @@
         </plugins>
     </build>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>reficio</id>
-            <url>http://repo.reficio.org/maven/</url>
-        </pluginRepository>
-    </pluginRepositories>
-
-	<name>Nasdanika Maven OSGi</name>
+	<name>Nasdanika Release</name>
 	<organization>
 		<name>Nasdanika LLC</name>
 		<url>https://www.nasdanika.org</url>
 	</organization>
-
-	
-	<url>https://www.nasdanika.org/home/products/${siteDir}/</url>
-	<distributionManagement>
-		<site>
-			<id>nasdanika-org</id>
-			<url>sftp://${env.FTP_SERVER}/${siteDir}</url>
-		</site>
-	</distributionManagement>	
 
 </project>
 
