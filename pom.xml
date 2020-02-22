@@ -3,14 +3,70 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.nasdanika</groupId>
-    <artifactId>Release</artifactId>
+    <groupId>org.nasdanika.foundation</groupId>
+    <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>2020.01</version>
+    
+	<pluginRepositories>
+		<pluginRepository>
+			<id>plugins-snapshot-local</id>
+			<name>plugins-snapshot-local</name>
+			<url>http://repo.spring.io/plugins-snapshot-local</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<layout>default</layout>
+		</pluginRepository>
+	</pluginRepositories>
+	
+	<!-- tycho requires maven >= 3.0 -->
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<properties>
+		<tycho-version>1.6.0</tycho-version>
+		<eclipse-repo>http://download.eclipse.org/releases/2019-12</eclipse-repo>
+		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20191126223242/repository</orbit-repo>
+	</properties>
+
+	<repositories>
+		<!-- configure p2 repository to resolve against -->
+		<repository>
+			<id>foundation</id>
+			<url>file:/target/foundation-repository</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
 	
     <build>
-
-        <plugins>
+        <plugins>        
+			<plugin>
+				<groupId>org.springsource.ide</groupId>
+				<artifactId>p2.composite.site.maven.plugin</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<id>foundation-repository</id>
+						<configuration>
+							<name>Nasdanika Composite Repository of Fundational dependencies - Eclipse and Oribt</name>
+							<!-- The goal is to have to update links in one place and propagate to all products -->
+							<target>${project.build.directory}/foundation-repository</target>
+							<sites>
+								<param>${eclipse-repo}</param>
+								<param>${orbit-repo}</param>
+								<param>http://download.eclipse.org/nebula/releases/2.3.0</param>
+								<param>../third-party</param>
+							</sites>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>						
+        
             <plugin>
                 <groupId>org.reficio</groupId>
                 <artifactId>p2-maven-plugin</artifactId>
@@ -18,59 +74,7 @@
                 <executions>
                     <execution>
                         <id>default-cli</id>
-                        <!-- QUICK-START EXAMPLE -->
-                        <!--
-                        This is the default quick-start configuration.
-
-                        Expected behavior:
-                          - specified dependencies will be fetched
-                          - transitive dependencies will be fetched (no default exclusions)
-                          - jars containing source source code will NOT be fetched
-                          - jars that are NOT OSGi bundles will be "bundled" using bnd tool,
-                            if you specify instructions for these jars they will be APPLIED
-                          - jars that are OSGi bundles will be simply included
-                            if you specify instructions for these jars they will be IGNORED (see <override> option)
-                          - p2 site will be generated
-
-                        How the instructions works:
-                          - instructions are applied only to the root artifact that you specify!
-                          - instructions are not applied to the TRANSITIVE dependencies!
-                          - transitive dependencies are never overridden (see <override> option)
-                          - transitive dependencies are bundled using the default instructions:
-                              <instructions>
-                                  <Import-Package>*;resolution:=optional</Import-Package>
-                                  <Export-Package>*</Export-Package>
-                              </instructions>
-                          - other instructions, such as, Bundle-SymbolicName, Bundle-Name, Bundle-Version, etc.
-                            are calculated according to the following rules:
-                            http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html
-                          - if you specify any instructions they will be applied only if
-                            the jar is not already an OSGi bundle - otherwise you have to use the override
-                            option - please see the /examples/override/pom.xml example
-
-                        The following definition of an artifact:
-                            <artifact>
-                                <id>commons-io:commons-io:2.1</id>
-                            </artifact>
-
-                        is an equivalent of the following definition:
-                            <artifact>
-                                <id>commons-io:commons-io:2.1</id>
-                                <transitive>true</transitive>
-                                <source>false</source>
-                                <override>false</override>
-                                <instructions>
-                                    <Import-Package>*;resolution:=optional</Import-Package>
-                                    <Export-Package>*</Export-Package>
-                                </instructions>
-                                <excludes/>
-                            </artifact>
-
-                        To run the example please invoke: mvn p2:site
-                        -->
                         <configuration>
-			    <!-- <destinationDirectory>${project.basedir}/target/repositories/maven-osgi</destinationDirectory> -->
-			<!-- Generate feature? -->
 				<featureDefinitions>
 					<feature>
 						<id>org.nasdanika.maven-osgi</id>
@@ -145,14 +149,35 @@
                     </execution>
                 </executions>
             </plugin>
+		<plugin>
+			<!-- enable tycho build extension -->
+			<groupId>org.eclipse.tycho</groupId>
+			<artifactId>tycho-maven-plugin</artifactId>
+			<version>${tycho-version}</version>
+			<extensions>true</extensions>
+		</plugin>
         </plugins>
     </build>
 
-	<name>Nasdanika Release</name>
-	<organization>
-		<name>Nasdanika LLC</name>
-		<url>https://www.nasdanika.org</url>
-	</organization>
+	<modules>
+		<!--
+		<module>bundles</module>
+		<module>features</module>
+		-->
+		<!-- <module>../net.sourceforge.plantuml</module> -->
+		<!--
+		<module>flexmark</module>
+		<module>jjwt</module>
+		<module>janino</module>
+		<module>feature</module>
+		-->
+		<!--
+		<module>equinox.feature</module>
+		<module>jetty.feature</module>
+		-->
+		<module>site</module>
+	</modules>
+	
 
 </project>
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.nasdanika.foundation</groupId>
+    <artifactId>features</artifactId>
+    <version>2020.01</version>
+    <relativePath>..\.polyglot.pom.tycho</relativePath>
+  </parent>
+  <artifactId>org.nasdanika.third-party.feature</artifactId>
+  <version>2.2020.01-SNAPSHOT</version>
+  <packaging>eclipse-feature</packaging>
+  <name>Nasdanika Third Party Bundles</name>
+  <organization>
+    <name>Nasdanika LLC</name>
+  </organization>
+</project>
