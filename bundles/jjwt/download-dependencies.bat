@@ -1,1 +1,1 @@
-mvn -f pom-dependencies.xml dependency:copy-dependencies -DoutputDirectory=lib
+mvn -f pom-dependencies.xml clean dependency:copy-dependencies -DoutputDirectory=lib

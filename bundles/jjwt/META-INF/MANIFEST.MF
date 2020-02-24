@@ -6,15 +6,16 @@ Bundle-Version: 0.10.7.qualifier
 Bundle-Vendor: Nasdanika
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: json;bundle-version="20180130.0.0"
-Bundle-ClassPath: lib/jjwt-api-0.10.7.jar,
- lib/jjwt-impl-0.10.7.jar,
- lib/jjwt-orgjson-0.10.7.jar
+Bundle-ClassPath: lib/jjwt-api-0.11.0.jar,
+ lib/jjwt-impl-0.11.0.jar,
+ lib/jjwt-orgjson-0.11.0.jar
+Automatic-Module-Name: io.jsonwebtoken
 Export-Package: io.jsonwebtoken,
  io.jsonwebtoken.impl,
  io.jsonwebtoken.impl.compression,
  io.jsonwebtoken.impl.crypto,
- io.jsonwebtoken.impl.io,
+ io.jsonwebtoken.impl.lang,
  io.jsonwebtoken.io,
  io.jsonwebtoken.lang,
+ io.jsonwebtoken.orgjson.io,
  io.jsonwebtoken.security
-Automatic-Module-Name: io.jsonwebtoken
