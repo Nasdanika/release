@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>repository</artifactId>
+	<name>Nasdanika Repository</name>
+	<packaging>eclipse-repository</packaging>
+	<parent>
+		<groupId>org.nasdanika.foundation</groupId>
+		<artifactId>parent</artifactId>
+		<version>2020.03</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<includeAllDependencies>false</includeAllDependencies>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-director-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>build-distributions</id>
+					</execution>
+				</executions>
+				<configuration>
+					<installFeatures>true</installFeatures>
+					<profile>DefaultProfile</profile>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

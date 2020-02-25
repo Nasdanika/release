@@ -1,0 +1,1 @@
+Generates composite repository ``mvn clean generate-resources``

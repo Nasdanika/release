@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.nasdanika.developer.tools.feature"
+      label="Nasdanika Developer Tools"
+      version="2020.03.00.qualifier">
+
+   <description>
+      Third-party tools for Nasdanika developers.
+   </description>
+
+   <copyright>
+      Property of Nasdanika LLC, all rights reserved.
+   </copyright>
+
+   <license url="https://www.eclipse.org/legal/epl-v10.html">
+      Eclipse public license
+   </license>
+
+   <url>
+      <discovery label="Tycho Connector" url="http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.9.0/N/0.9.0.201811261502/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.m2e.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.sonatype.tycho.m2e.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.wst.web_ui.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.wb.rcp.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.rse"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.tm.terminal.feature"
+         version="0.0.0"/>
+         
+   <includes
+         id="org.eclipse.sirius.samples"
+         version="0.0.0"/>
+         
+   <includes
+         id="org.eclipse.sirius.specifier.properties.feature"
+         version="0.0.0"/>
+         
+   <includes
+         id="org.eclipse.sirius.specifier"
+         version="0.0.0"/>
+         
+</feature>

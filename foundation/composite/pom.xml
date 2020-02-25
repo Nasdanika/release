@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.nasdanika.foundation</groupId>
+	<artifactId>composite-repo</artifactId>
+	<packaging>pom</packaging>
+	<version>2020.03</version>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>plugins-snapshot-local</id>
+			<name>plugins-snapshot-local</name>
+			<url>https://repo.spring.io/plugins-snapshot-local</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<layout>default</layout>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<!-- tycho requires maven >= 3.0 -->
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<properties>
+		<eclipse-repo>http://download.eclipse.org/releases/2019-12</eclipse-repo>
+		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20191126223242/repository</orbit-repo>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springsource.ide</groupId>
+				<artifactId>p2.composite.site.maven.plugin</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<id>repository</id>
+						<configuration>
+							<name>Nasdanika Composite Repository of Fundational dependencies - Eclipse and Oribt</name>
+							<target>${project.build.directory}/repository</target>
+							<sites>
+								<param>${eclipse-repo}</param>
+								<param>${orbit-repo}</param>
+								<param>http://download.eclipse.org/nebula/releases/2.3.0</param>
+								<param>../third-party</param>
+								<param>../maven-osgi</param>
+							</sites>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+
+

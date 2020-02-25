@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.nasdanika.third-party.feature">
+      <category name="org.nasdanika.runtime"/>
+   </feature>
+   <feature id="org.nasdanika.developer.tools.feature">
+      <category name="org.nasdanika.tools"/>
+   </feature>
+   <category-def name="org.nasdanika.runtime" label="Runtime bundles">
+      <category name="org.nasdanika"/>
+   </category-def>
+   <category-def name="org.nasdanika.tools" label="Tools">
+      <category name="org.nasdanika"/>
+      <description>
+         Eclipse IDE plug-ins.
+      </description>
+   </category-def>
+   <category-def name="org.nasdanika" label="Nasdanika"/>
+</site>
