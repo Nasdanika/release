@@ -1,6 +1,6 @@
 node {
-    def release = '2020.03'
+    def branch = parameters.BRANCH
     stage('Foundation') {
-        build job: 'foundation', parameters: [string(name: 'release', value: release)]
+        build job: 'foundation', parameters: [string(name: 'BRANCH', value: branch)]
     }
 }
