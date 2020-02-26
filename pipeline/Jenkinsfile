@@ -1,5 +1,5 @@
 node {
-    def branch = parameters.BRANCH
+    def branch = params.BRANCH
     stage('Foundation') {
         build job: 'foundation', parameters: [string(name: 'BRANCH', value: branch)]
     }
