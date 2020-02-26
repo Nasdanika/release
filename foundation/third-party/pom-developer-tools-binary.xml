@@ -40,7 +40,7 @@
 									executable="${project.build.directory}\eclipse\eclipsec.exe" 
 									failonerror="true">
 
-									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/releases/${env.BRANCH}/repositories/composite -installIUs org.nasdanika.developer.tools.feature.feature.group -tag NasdanikaToolSuite"/>
+									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/builds/${env.BRANCH}/repositories/composite -installIUs org.nasdanika.developer.tools.feature.feature.group -tag NasdanikaToolSuite"/>
 								</exec>
 								
 								<!-- Zip -->
