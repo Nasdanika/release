@@ -3,4 +3,7 @@ node {
     stage('Foundation') {
         build job: 'foundation', parameters: [string(name: 'BRANCH', value: branch)]
     }
+    stage('Core') {
+        build job: 'core', parameters: [string(name: 'BRANCH', value: branch)]
+    }
 }
