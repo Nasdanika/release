@@ -61,9 +61,9 @@ The development phase can start as soon as there are issues scheduled for the re
 
 Initiation:
 
-* Update the release number in the sources and executing an end-to-end build.
-* Upgrade of third party dependencies to the most recent version at the time.
-* Updating the target platform definition and address compilation and build problems caused by upgrades by either updating the code to be compatible with the new versions of dependencies, or rolling back the upgrades.
+* Update the release number in the sources and execute an end-to-end build.
+* Upgrade the third party dependencies to the most recent version at the time.
+* Update the target platform definition and address compilation and build problems caused by upgrades by either updating the code to be compatible with the new versions of dependencies, or rolling back the problematic upgrades.
  
 Creating a feature branch off develop:
 
