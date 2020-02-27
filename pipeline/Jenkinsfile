@@ -4,6 +4,7 @@ node {
         build job: 'foundation', parameters: [string(name: 'BRANCH', value: branch)]
     }
     stage('Core') {
-        build job: 'core', parameters: [string(name: 'BRANCH', value: branch)]
+        // Change the branch parameter if the core branch is different from the release branch.
+        build job: 'core', parameters: [string(name: 'RELEASE', value: branch), string(name: 'BRANCH', value: branch)]
     }
 }
