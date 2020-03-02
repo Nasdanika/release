@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.nasdanika.tools</groupId>
+	<artifactId>org.nasdanika.tools.parent</artifactId>
+	<version>2020.03.00-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<!-- tycho requires maven >= 3.0 -->
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<properties>
+		<tycho-version>1.6.0</tycho-version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>foundation</id>
+			<url>https://www.nasdanika.org/builds/${env.RELEASE}/repositories/composite</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>core</id>
+			<url>https://www.nasdanika.org/builds/${env.RELEASE}/products/core/repository</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>html</id>
+			<url>https://www.nasdanika.org/builds/${env.RELEASE}/products/html/repository</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>vinci</id>
+			<url>https://www.nasdanika.org/builds/${env.RELEASE}/products/vinci/repository</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
+	<build>
+		<plugins>
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-site-plugin</artifactId>
+			    <version>3.8.2</version>
+			    <configuration>
+			        <skip>true</skip>
+			        <skipDeploy>true</skipDeploy>
+			    </configuration>
+			</plugin>	
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-document-bundle-plugin</artifactId>
+				<version>${tycho-version}</version>
+			</plugin>			
+			<plugin>
+				<!-- enable tycho build extension -->
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<pomDependencies>consider</pomDependencies>
+					<!-- configure the p2 target environments for multi-platform build -->
+					<environments>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+			<!-- enable source bundle generation -->
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-source-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>plugin-source</id>
+						<goals>
+							<goal>plugin-source</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
+
+				<configuration>
+					<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+				</configuration>
+			</plugin>
+		</plugins>
+	</reporting>	
+	
+	<modules>
+
+		<module>feature</module>
+		<module>repository</module>
+
+	</modules>
+	<name>Nasdanika Tool Suite</name>
+	<url>https://www.nasdanika.org/${env.CIRCLE_BRANCH}/products/tool-suite</url>
+	<organization>
+		<name>Nasdanika LLC</name>
+		<url>http://www.nasdanika.org</url>
+	</organization>
+	<scm>
+		<url>https://github.com/Nasdanika/tool-suite</url>
+	</scm>
+</project>

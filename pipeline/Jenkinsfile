@@ -7,4 +7,12 @@ node {
         // Change the branch parameter if the core branch is different from the release branch.
         build job: 'core', parameters: [string(name: 'RELEASE', value: branch), string(name: 'BRANCH', value: branch)]
     }
+    stage('HTML') {
+        // Change the branch parameter if the core branch is different from the release branch.
+        build job: 'html', parameters: [string(name: 'RELEASE', value: branch), string(name: 'BRANCH', value: branch)]
+    }
+    stage('Vinci') {
+        // Change the branch parameter if the core branch is different from the release branch.
+        build job: 'vinci', parameters: [string(name: 'RELEASE', value: branch), string(name: 'BRANCH', value: branch)]
+    }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.nasdanika.tools.feature">
+      <category name="org.nasdanika.tools"/>
+   </feature>
+   <category-def name="org.nasdanika.tools" label="Tools">
+      <category name="org.nasdanika"/>
+      <description>
+         Eclipse IDE plug-ins.
+      </description>
+   </category-def>
+   <category-def name="org.nasdanika" label="Nasdanika"/>
+</site>
