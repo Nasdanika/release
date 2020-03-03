@@ -22,7 +22,7 @@
 				<version>1.8</version>
 				<executions>
 					<execution>
-						<id>ftp</id>
+						<id>build-binaries</id>
 						<phase>generate-resources</phase>
 						<configuration>
 							<target>

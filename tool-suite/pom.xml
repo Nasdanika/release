@@ -20,22 +20,22 @@
 	<repositories>
 		<repository>
 			<id>foundation</id>
-			<url>https://www.nasdanika.org/builds/${env.RELEASE}/repositories/composite</url>
+			<url>https://www.nasdanika.org/builds/${env.BRANCH}/repositories/composite</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>core</id>
-			<url>https://www.nasdanika.org/builds/${env.RELEASE}/products/core/repository</url>
+			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/core/repository</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>html</id>
-			<url>https://www.nasdanika.org/builds/${env.RELEASE}/products/html/repository</url>
+			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/html/repository</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>vinci</id>
-			<url>https://www.nasdanika.org/builds/${env.RELEASE}/products/vinci/repository</url>
+			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/vinci/repository</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
@@ -126,6 +126,6 @@
 		<url>http://www.nasdanika.org</url>
 	</organization>
 	<scm>
-		<url>https://github.com/Nasdanika/tool-suite</url>
+		<url>https://github.com/Nasdanika/release/tool-suite</url>
 	</scm>
 </project>
