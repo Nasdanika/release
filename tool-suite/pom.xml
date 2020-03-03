@@ -120,7 +120,7 @@
 		<module>repository</module>
 
 	</modules>
-	<name>Nasdanika Tool Suite</name>
+	<name>Nasdanika Tool Suite Parent</name>
 	<organization>
 		<name>Nasdanika LLC</name>
 		<url>http://www.nasdanika.org</url>
