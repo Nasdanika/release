@@ -32,6 +32,8 @@ In the pipeline build the pipeline specifies which component branch to use and t
 When builds are triggered individually, parameters are provided by the person triggering the build.
 Default values for the parameters are ``develop`` and ``develop``.
 
+[Release Engineering Reference](release-engineering.pdf).
+
 ## Release phases
 
 ### Planning

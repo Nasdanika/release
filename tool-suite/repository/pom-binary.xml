@@ -27,7 +27,7 @@
 						<configuration>
 							<target>
 								<!-- Download binary -->
-								<get src="https://www.nasdanika.org/develop/products/developer-tools/nasdanika-developer-tools-2020-01-01-win32-x86_64.zip" dest="${project.build.directory}/eclipse.zip"/>
+								<get src="https://www.nasdanika.org/develop/products/developer-tools/nasdanika-developer-tools-2020-03-win32-x86_64.zip" dest="${project.build.directory}/eclipse.zip"/>
 								
 								<!-- Unzip -->
 								<unzip src="${project.build.directory}/eclipse.zip" dest="${project.build.directory}"/>
@@ -38,7 +38,7 @@
 									executable="${project.build.directory}\eclipse\eclipsec.exe" 
 									failonerror="true">
 
-									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/${env.CIRCLE_BRANCH}/products/tool-suite/repository -installIUs org.nasdanika.tools.feature.feature.group -tag NasdanikaToolSuite"/>
+									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/${env.BRANCH}/products/tool-suite/repository -installIUs org.nasdanika.tools.feature.feature.group -tag NasdanikaToolSuite"/>
 								</exec>
 								
 								<!-- Zip -->
@@ -48,10 +48,26 @@
 									includes="eclipse/**"/>
 								 
 								<!-- JDK bundle -->
-								<zip destfile="${project.build.directory}/${windows-jdk-binary-name}">
-									<fileset dir="${project.build.directory}" includes="eclipse/**" excludes="eclipse/eclipse.ini"/>
-									<zipfileset dir="${project.build.directory}/../eclipse-root" prefix="eclipse"/>
-								</zip>
+								<get src="https://www.nasdanika.org/develop/products/developer-tools/nasdanika-developer-tools-2020-03-open-jdk-8-win32-x86_64.zip" dest="${project.build.directory}/eclipse-jdk.zip"/>
+								
+								<!-- Unzip -->
+								<unzip src="${project.build.directory}/eclipse-jdk.zip" dest="${project.build.directory}/eclipse-jdk"/>
+								
+								<!-- Call P2 Director - execute on Windows -->
+								<exec
+									dir="${project.build.directory}\eclipse"
+									executable="${project.build.directory}\eclipse-jkd\eclipse\eclipsec.exe" 
+									failonerror="true">
+
+									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/${env.BRANCH}/products/tool-suite/repository -installIUs org.nasdanika.tools.feature.feature.group -tag NasdanikaToolSuite"/>
+								</exec>
+								
+								<!-- Zip -->
+								<zip 
+									destfile="${project.build.directory}/${windows-jdk-binary-name}" 
+									basedir="${project.build.directory}/eclipse-jdk"
+									includes="eclipse/**"/>
+
 							</target>
 						</configuration>
 						<goals>

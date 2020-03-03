@@ -29,7 +29,7 @@
 						<configuration>
 							<target>
 								<!-- Download binary -->
-								<get src="http://mirror.umd.edu/eclipse/technology/epp/downloads/release/${base-version}/R/eclipse-modeling-${base-version}-R-win32-x86_64.zip" dest="${project.build.directory}/eclipse.zip"/>
+								<get src="https://www.nasdanika.org/downloads/eclipse-modeling-${base-version}-R-win32-x86_64.zip" dest="${project.build.directory}/eclipse.zip"/>
 								
 								<!-- Unzip -->
 								<unzip src="${project.build.directory}/eclipse.zip" dest="${project.build.directory}"/>
@@ -50,7 +50,7 @@
 									includes="eclipse/**"/>
 
 								<!-- Bundle Open JDK -->
-								<get src="https://cdn.azul.com/zulu/bin/zulu8.44.0.11-ca-jdk8.0.242-win_x64.zip" dest="${project.build.directory}/open-jdk.zip"/>
+								<get src="https://www.nasdanika.org/downloads/zulu8.44.0.11-ca-jdk8.0.242-win_x64.zip" dest="${project.build.directory}/open-jdk.zip"/>
 								<unzip src="${project.build.directory}/open-jdk.zip" dest="${project.build.directory}/eclipse/jdk"/>
 								<copy 
 									overwrite="true"

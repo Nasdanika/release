@@ -121,7 +121,6 @@
 
 	</modules>
 	<name>Nasdanika Tool Suite</name>
-	<url>https://www.nasdanika.org/${env.CIRCLE_BRANCH}/products/tool-suite</url>
 	<organization>
 		<name>Nasdanika LLC</name>
 		<url>http://www.nasdanika.org</url>
