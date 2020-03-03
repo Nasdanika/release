@@ -32,7 +32,7 @@
 			        <executions>
 			          <execution>
 			            <id>create-archive</id>
-			            <phase>pre-site</phase>
+			            <phase>package</phase>
 			            <goals>
 			              <goal>single</goal>
 			            </goals>
