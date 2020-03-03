@@ -2,7 +2,7 @@
 <feature
       id="org.nasdanika.tools.feature"
       label="Nasdanika Tool Suite"
-      version="2020.01.01.qualifier">
+      version="2020.03.00.qualifier">
 
    <description>
       Nasdanika and third-party tools.
@@ -15,12 +15,6 @@
    <license url="https://www.eclipse.org/legal/epl-v10.html">
       Eclipse public license
    </license>
-
-   <url>
-      <discovery label="Foundation" url="https://www.nasdanika.org/home/foundation-repository"/>
-      <discovery label="Tycho Connector" url="http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.9.0/N/0.9.0.201811261502/"/>
-      <discovery label="Nasdanika" url="https://www.nasdanika.org/products/site/repository"/>
-   </url>
 
    <includes
          id="org.nasdanika.vinci.feature"
