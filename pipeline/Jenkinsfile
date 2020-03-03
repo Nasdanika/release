@@ -4,7 +4,7 @@ pipeline {
     stages {
 		stage('Foundation') {
 			// Build only if there are changes in the foundation definition.
-			when { changeset "foundation/*"	} 
+			when { changeset "foundation/**"	} 
 			steps {
 			        build job: 'foundation', parameters: [string(name: 'BRANCH', value: params.BRANCH)]
 			}
