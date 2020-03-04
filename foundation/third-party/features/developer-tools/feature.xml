@@ -63,5 +63,9 @@
    <includes
          id="org.eclipse.mylyn.github.feature"
          version="0.0.0"/>
+         
+   <includes
+         id="de.jcup.yamleditor"
+         version="0.0.0"/>
 
 </feature>
