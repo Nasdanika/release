@@ -40,6 +40,10 @@
 
 									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/builds/${env.BRANCH}/packages/tool-suite/repository -installIUs org.nasdanika.tools.feature.feature.group -tag NasdanikaToolSuite"/>
 								</exec>
+
+								<copy todir="${project.build.directory}/eclipse">
+									<fileset dir="${project.basedir}/root"/>
+								</copy>
 								
 								<!-- Zip -->
 								<zip 
@@ -52,6 +56,10 @@
 								
 								<!-- Unzip -->
 								<unzip src="${project.build.directory}/eclipse-jdk.zip" dest="${project.build.directory}/eclipse-jdk"/>
+
+								<copy todir="${project.build.directory}/eclipse-jdk/eclipse">
+									<fileset dir="${project.basedir}/root"/>
+								</copy>															
 								
 								<!-- Call P2 Director - execute on Windows -->
 								<exec

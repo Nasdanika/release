@@ -90,6 +90,8 @@ git push origin --delete feature/myfeature
 
 The same can be achieved with [EGit](https://wiki.eclipse.org/EGit/User_Guide).
 
+Also delete the feature branch directory on the web server.
+
 ### Pre-release
 
 At some time before the release date release branches are created for all components. 
