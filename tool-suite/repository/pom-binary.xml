@@ -41,9 +41,8 @@
 									<arg line="-nosplash -application org.eclipse.equinox.p2.director -consoleLog -repository https://www.nasdanika.org/builds/${env.BRANCH}/packages/tool-suite/repository -installIUs org.nasdanika.tools.feature.feature.group -tag NasdanikaToolSuite"/>
 								</exec>
 
-								<copy todir="${project.build.directory}/eclipse">
-									<fileset dir="${project.basedir}/root"/>
-								</copy>
+								<copy file="${project.basedir}/root/nsd.ini" toFile="${project.build.directory}/eclipse/nsd.ini"/>
+								<copy file="${project.build.directory}/eclipse/eclipsec.exe" toFile="${project.build.directory}/eclipse/nsd.exe"/>
 								
 								<!-- Zip -->
 								<zip 
@@ -57,9 +56,8 @@
 								<!-- Unzip -->
 								<unzip src="${project.build.directory}/eclipse-jdk.zip" dest="${project.build.directory}/eclipse-jdk"/>
 
-								<copy todir="${project.build.directory}/eclipse-jdk/eclipse">
-									<fileset dir="${project.basedir}/root"/>
-								</copy>															
+								<copy file="${project.basedir}/root/nsd-jdk.ini" toFile="${project.build.directory}/eclipse-jdk/eclipse/nsd.ini"/>
+								<copy file="${project.build.directory}/eclipse-jdk/eclipse/eclipsec.exe" toFile="${project.build.directory}/eclipse-jdk/eclipse/nsd.exe"/>
 								
 								<!-- Call P2 Director - execute on Windows -->
 								<exec
