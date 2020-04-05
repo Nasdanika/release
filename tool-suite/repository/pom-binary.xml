@@ -26,10 +26,7 @@
 						<phase>generate-resources</phase>
 						<configuration>
 							<target>
-								<!-- Download binary -->
-								<get src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-03-win32-x86_64.zip" dest="${project.build.directory}/eclipse.zip"/>
-								
-								<!-- Unzip -->
+								<!-- Unzip binary downloaded by pom-cli -->
 								<unzip src="${project.build.directory}/eclipse.zip" dest="${project.build.directory}"/>
 								
 								<!-- Call P2 Director - execute on Windows -->

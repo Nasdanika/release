@@ -106,6 +106,7 @@
 	</reporting>	
 	
 	<modules>
+		<module>doc</module>
 		<module>feature</module>
 		<module>repository</module>
 	</modules>

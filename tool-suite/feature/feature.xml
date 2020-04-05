@@ -20,8 +20,4 @@
          id="org.nasdanika.vinci.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.nasdanika.developer.tools.feature"
-         version="0.0.0"/>
-   
 </feature>

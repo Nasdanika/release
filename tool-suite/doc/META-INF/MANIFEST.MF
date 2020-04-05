@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nasdanika Documentation
+Bundle-SymbolicName: org.nasdanika.doc;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Nasdanika LLC
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.help
+Automatic-Module-Name: org.nasdanika.doc
