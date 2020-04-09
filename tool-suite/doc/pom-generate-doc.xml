@@ -47,7 +47,7 @@
 									<arg value="org.nasdanika.vinci.feature.feature.group"/>
 								</exec>
 
-								<copy file="${project.basedir}/root/nsd.ini" toFile="${project.build.directory}/cli/eclipse/nsd.ini"/>
+								<copy file="${project.basedir}/../repository/root/nsd.ini" toFile="${project.build.directory}/cli/eclipse/nsd.ini"/>
 								<copy file="${project.build.directory}/cli/eclipse/eclipsec.exe" toFile="${project.build.directory}/cli/eclipse/nsd.exe"/>
 								 
 								<!-- Generate documentation -->
