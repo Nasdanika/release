@@ -55,8 +55,8 @@
 								
 								<!-- CLI help -->
 								<echo message="CLI help model"/>
-								<mkdir dir="${project.basedir}\..\doc\generated"/>
-								<mkdir dir="${project.basedir}\..\doc\content"/>
+								<mkdir dir="${project.basedir}\generated"/>
+								<mkdir dir="${project.basedir}\content"/>
 								<exec
 									dir="${project.build.directory}\cli\eclipse"
 									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
@@ -67,8 +67,10 @@
 									<arg value="vinci"/>
 									<arg value="generate"/>
 									<arg value="help"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\cli-help-model-progress.txt"/>									
 									<arg value="-o"/>
-									<arg value="${project.basedir}\..\doc\generated\cli.vinci"/>
+									<arg value="${project.basedir}\generated\cli.vinci"/>
 								</exec>
 								
 								<echo message="CLI Eclipse help"/>
@@ -86,10 +88,12 @@
 									<arg value="content/cli"/>
 									<arg value="-L"/>
 									<arg value="toc.xml#cli"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\cli-eclipse-help-progress.txt"/>									
 									<arg value="-o"/>
-									<arg value="${project.basedir}\..\doc\content\cli"/>
+									<arg value="${project.basedir}\content\cli"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\..\doc\generated\cli.vinci"/>
+									<arg value="${project.basedir}\generated\cli.vinci"/>
 								</exec>
 																
 								<!-- Ecore Documentation -->
@@ -104,8 +108,10 @@
 									<arg value="vinci"/>
 									<arg value="generate"/>
 									<arg value="ecore-doc"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\ecore-doc-model-progress.txt"/>									
 									<arg value="-o"/>
-									<arg value="${project.basedir}\..\doc\generated\ecore-doc"/>
+									<arg value="${project.basedir}\generated\ecore-doc"/>
 									<arg value="urn:org.nasdanika.ncore"/>
 									<arg value="urn:org.nasdanika.vinci.html"/>
 									<arg value="urn:org.nasdanika.vinci.bootstrap"/>
@@ -128,10 +134,12 @@
 									<arg value="content/ecore"/>
 									<arg value="-L"/>
 									<arg value="toc.xml#ecore"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\ecore-eclipse-help-progress.txt"/>									
 									<arg value="-o"/>
-									<arg value="${project.basedir}\..\doc\content\ecore"/>
+									<arg value="${project.basedir}\content\ecore"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\..\doc\ecore.vinci"/>
+									<arg value="${project.basedir}\ecore.vinci"/>
 								</exec>																
 								
 								<!-- Site -->
@@ -146,10 +154,12 @@
 									<arg value="vinci"/>
 									<arg value="generate"/>
 									<arg value="application"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\site-progress.txt"/>									
 									<arg value="-o"/>
 									<arg value="${project.build.directory}\site"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\..\doc\site.vinci"/>
+									<arg value="${project.basedir}\site.vinci"/>
 								</exec>
 
 								<!-- Documentation site -->
@@ -164,10 +174,12 @@
 									<arg value="vinci"/>
 									<arg value="generate"/>
 									<arg value="application"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\doc-application-progress.txt"/>									
 									<arg value="-o"/>
 									<arg value="${project.build.directory}\doc"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\..\doc\documentation.vinci"/>
+									<arg value="${project.basedir}\documentation.vinci"/>
 								</exec>
 
 							</target>

@@ -26,6 +26,10 @@
 						<phase>generate-resources</phase>
 						<configuration>
 							<target>
+								<get 
+									src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-03-win32-x86_64.zip" 
+									dest="${project.build.directory}/eclipse.zip"/>
+								
 								<!-- Unzip binary downloaded by pom-cli -->
 								<unzip src="${project.build.directory}/eclipse.zip" dest="${project.build.directory}"/>
 								
