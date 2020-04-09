@@ -67,8 +67,6 @@
 									<arg value="vinci"/>
 									<arg value="generate"/>
 									<arg value="help"/>
-									<arg value="-p"/>
-									<arg value="${project.build.directory}\cli-help-model-progress.txt"/>									
 									<arg value="-o"/>
 									<arg value="${project.basedir}\generated\cli.vinci"/>
 								</exec>
