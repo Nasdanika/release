@@ -55,6 +55,7 @@
 								
 								<!-- CLI help -->
 								<echo message="CLI help model"/>
+								<mkdir dir="${project.basedir}\..\doc\generated"/>
 								<exec
 									dir="${project.build.directory}\cli\eclipse"
 									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
