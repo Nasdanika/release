@@ -7,5 +7,13 @@
             file="toc.xml"
             primary="false">
       </toc>
+      <toc
+            file="content/ecore/toc.xml"
+            primary="false">
+      </toc>
+      <toc
+            file="content/cli/toc.xml"
+            primary="false">
+      </toc>
    </extension>
 </plugin>

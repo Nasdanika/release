@@ -27,15 +27,11 @@
 						<phase>generate-resources</phase>
 						<configuration>
 							<target>
-								<!-- Download binary -->
 								<get 
 									src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-03-win32-x86_64.zip" 
 									dest="${project.build.directory}/eclipse.zip"/>
 								
-								<!-- Unzip -->
 								<unzip src="${project.build.directory}/eclipse.zip" dest="${project.build.directory}/cli"/>
-								
-								<!-- Call P2 Director - execute on Windows - features included into the tools suite individually -->
 								<exec
 									dir="${project.build.directory}\cli\eclipse"
 									executable="${project.build.directory}\cli\eclipse\eclipsec.exe" 
@@ -46,17 +42,131 @@
 									<arg value="org.eclipse.equinox.p2.director"/>
 									<arg value="-consoleLog"/>
 									<arg value="-repository"/>
-									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/packages/tool-suite/repository"/>
+									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/products/vinci/repository,https://www.nasdanika.org/builds/${env.BRANCH}/repositories/composite,https://www.nasdanika.org/builds/${env.BRANCH}/products/core/repository,https://www.nasdanika.org/builds/${env.BRANCH}/products/html/repository"/>
 									<arg value="-installIUs"/>
 									<arg value="org.nasdanika.vinci.feature.feature.group"/>
 								</exec>
 
 								<copy file="${project.basedir}/root/nsd.ini" toFile="${project.build.directory}/cli/eclipse/nsd.ini"/>
 								<copy file="${project.build.directory}/cli/eclipse/eclipsec.exe" toFile="${project.build.directory}/cli/eclipse/nsd.exe"/>
-								
+								 
 								<!-- Generate documentation -->
+								<echo message="Generating documentation"/>
 								
-								<!-- Ecore doc - vinci, html, eclipse help -->
+								<!-- CLI help -->
+								<echo message="CLI help model"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="help"/>
+									<arg value="-o"/>
+									<arg value="${project.basedir}\..\doc\generated\cli.vinci"/>
+								</exec>
+								
+								<echo message="CLI Eclipse help"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="eclipse-help"/>
+									<arg value="-l"/>
+									<arg value="content/cli"/>
+									<arg value="-L"/>
+									<arg value="toc.xml#cli"/>
+									<arg value="-o"/>
+									<arg value="${project.basedir}\..\doc\content\cli"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\..\doc\generated\cli.vinci"/>
+								</exec>
+																
+								<!-- Ecore Documentation -->
+								<echo message="Ecore documentation model"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="ecore-doc"/>
+									<arg value="-o"/>
+									<arg value="${project.basedir}\..\doc\generated\ecore-doc"/>
+									<arg value="urn:org.nasdanika.ncore"/>
+									<arg value="urn:org.nasdanika.vinci.html"/>
+									<arg value="urn:org.nasdanika.vinci.bootstrap"/>
+									<arg value="urn:org.nasdanika.vinci.app"/>
+									<arg value="urn:org.nasdanika.vinci.components"/>
+								</exec>
+								
+								<echo message="Ecore documentation Eclipse help"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="eclipse-help"/>
+									<arg value="-l"/>
+									<arg value="content/ecore"/>
+									<arg value="-L"/>
+									<arg value="toc.xml#ecore"/>
+									<arg value="-o"/>
+									<arg value="${project.basedir}\..\doc\content\ecore"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\..\doc\ecore.vinci"/>
+								</exec>																
+								
+								<!-- Site -->
+								<echo message="Site"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="application"/>
+									<arg value="-o"/>
+									<arg value="${project.build.directory}\site"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\..\doc\site.vinci"/>
+								</exec>
+
+								<!-- Documentation site -->
+								<echo message="Documentation"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="application"/>
+									<arg value="-o"/>
+									<arg value="${project.build.directory}\doc"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\..\doc\documentation.vinci"/>
+								</exec>
 
 							</target>
 						</configuration>

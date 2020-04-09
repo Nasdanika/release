@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="site" id="index" text="Nasdanika" icon="https://www.nasdanika.org/resources/images/nasdanika-logo.png" markdownContent="* Overview - products, packages&#xD;&#xA;* Packages - dev tools and tool suite - jdk bundled. License disclarimer - link to credits.&#xD;&#xA;* Documentation&#xD;&#xA;* Resources - Github - core, html, vinci (shall it be in the docs)? Stack overflow&#xD;&#xA;&#xD;&#xA;https://stackoverflow.com/questions/ask?tags=nasdanika&#xD;&#xA;https://stackoverflow.com/questions/tagged/nasdanika&#xD;&#xA;&#xD;&#xA;Credits - documentation?" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark.vinci">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="02fb8575-f46b-40cb-9ec5-65f59712366e"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Documentation" id="7e6cba54-afbd-4a03-be11-6eaa40e82dc8" text="Documentation" icon="las la-book" activator="./../documentation/index.html"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Forum" id="4aee6cb9-1926-468a-8b4e-3fcaf662998f" text="Forum" icon="las la-comments"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Sources" id="4583d557-a3ed-4ead-b2bb-2d3688e0beeb" text="Sources" icon="lab la-git"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Credits" id="8d887c59-bfc5-4f9c-9d65-1d03171d44a1" text="Credits" icon="las la-handshake"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Download" id="f9de747f-9ee6-48a1-a704-23dd2c4e2384" text="Download" icon="las la-file-download" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Tool Suite" id="b62611fb-8231-447b-9167-1981a3dcffa0" text="Tool Suite" icon="las la-toolbox">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Windows" id="d1aa7a35-61d1-413f-86f3-2f6a4478fcbd" text="Windows" icon="lab la-windows" activator="./dudu"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Windows with JDK" id="5e06b026-6b21-4f66-a3ca-f9cd440b11eb" text="Windows with JDK" icon="fab fa-windows"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Developer Tools" id="5c47f3b9-4249-4b6e-8ec7-dec86fed1f7f" text="Developer Tools" icon="las la-tools">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Windows" id="9a230680-604b-45b9-a69a-01ba44cd18fb" text="Windows" icon="lab la-windows"/>
+    </elements>
+  </elements>
+</org.nasdanika.vinci.app:Action>

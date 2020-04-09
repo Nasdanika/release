@@ -2,11 +2,10 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 
 <toc label="Nasdanika" link_to="../org.nasdanika.help/toc.xml#Nasdanika">
-   <topic href="doc/overview.md.html" label="Vinci">
-      <anchor id="Vinci"/>
-      <topic label="Javadoc">
-         <topic href="doc/api/org.nasdanika.vinci.app/index.html" label="App">
-         </topic>
-      </topic>
+   <topic href="content/cli/f408f810-b043-4c22-a4ed-dba1d01e835f.html" label="Command Line Interface">
+      <anchor id="cli"/>
+   </topic>
+   <topic href="content/ecore/3c4c7bb9-2a5f-4523-b3b4-5fda76483d67.html" label="Model">
+      <anchor id="ecore"/>
    </topic>
 </toc>
