@@ -4,6 +4,7 @@
     <semanticResources>documentation.vinci</semanticResources>
     <semanticResources>site.vinci</semanticResources>
     <semanticResources>ecore.vinci</semanticResources>
+    <semanticResources>target/cli/eclipse/plugins/org.eclipse.platform_4.14.0.v20191210-0610/LegacyIDE.e4xmi</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_FU_XMHejEeqXdqENQ1plSw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FVV8gHejEeqXdqENQ1plSw" name="documentation" repPath="#_FVP14HejEeqXdqENQ1plSw">
