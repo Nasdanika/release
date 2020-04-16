@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Nasdanika" id="13868309-9770-4633-8216-619f64b0e347" text="Nasdanika" icon="https://www.nasdanika.org/resources/images/nasdanika-logo.png" activator="./../index.html" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark-fluid.vinci">
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Documentation" id="index" text="Documentation" icon="las la-book" activator="${base-uri}index.html">
-    <elements xsi:type="org.nasdanika.vinci.app:Action" title="CLI" id="b2ed75c8-38fd-4223-b96e-6fd6ed1642be" text="Command Line Interface" icon="las la-terminal">
-      <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Generated model" ref="generated/cli.vinci" path="cli"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="CLI" id="b2ed75c8-38fd-4223-b96e-6fd6ed1642be" text="Command Line Interface" icon="las la-terminal" activator="cli/index.html">
+      <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Generated model" ref="generated/cli.vinci" path=""/>
       <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Reference" id="27fa8398-10d5-4f4f-8c00-a3747880917d" text="Reference" icon="fas fa-book">
