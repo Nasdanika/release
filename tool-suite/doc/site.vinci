@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="site" id="index" text="Nasdanika" icon="https://www.nasdanika.org/resources/images/nasdanika-logo.png" markdownContent="* Overview - products, packages&#xD;&#xA;* Packages - dev tools and tool suite - jdk bundled. License disclarimer - link to credits.&#xD;&#xA;* Documentation&#xD;&#xA;* Resources - Github - core, html, vinci (shall it be in the docs)? Stack overflow&#xD;&#xA;&#xD;&#xA;https://stackoverflow.com/questions/ask?tags=nasdanika&#xD;&#xA;https://stackoverflow.com/questions/tagged/nasdanika&#xD;&#xA;&#xD;&#xA;Credits - documentation?" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark.vinci">
-  <elements xsi:type="org.nasdanika.vinci.app:Action" id="02fb8575-f46b-40cb-9ec5-65f59712366e"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Documentation" id="7e6cba54-afbd-4a03-be11-6eaa40e82dc8" text="Documentation" icon="las la-book" activator="./../documentation/index.html"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Forum" id="4aee6cb9-1926-468a-8b4e-3fcaf662998f" text="Forum" icon="las la-comments"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Sources" id="4583d557-a3ed-4ead-b2bb-2d3688e0beeb" text="Sources" icon="lab la-git"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Credits" id="8d887c59-bfc5-4f9c-9d65-1d03171d44a1" text="Credits" icon="las la-handshake"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Download" id="f9de747f-9ee6-48a1-a704-23dd2c4e2384" text="Download" icon="las la-file-download" activatorType="None">
-    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Tool Suite" id="b62611fb-8231-447b-9167-1981a3dcffa0" text="Tool Suite" icon="las la-toolbox">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Windows" id="d1aa7a35-61d1-413f-86f3-2f6a4478fcbd" text="Windows" icon="lab la-windows" activator="./dudu"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Windows with JDK" id="5e06b026-6b21-4f66-a3ca-f9cd440b11eb" text="Windows with JDK" icon="fab fa-windows"/>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="site" id="index" text="Nasdanika" icon="https://www.nasdanika.org/resources/images/nasdanika-logo.png" markdownContent="" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/cerulean/dark.vinci">
+  <actionMappings alias="terms-of-use" target="78c99b9f-3a0e-42d7-9a58-cedecc00156f"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Principal - empty" id="02fb8575-f46b-40cb-9ec5-65f59712366e"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Documentation" id="7e6cba54-afbd-4a03-be11-6eaa40e82dc8" text="Documentation" icon="las la-book" activator="" activatorType="None">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" id="17fbda7d-f712-498a-8c82-a9dab0b4b926" color="" text="Vinci">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="74c56372-4ffc-4b2a-9f7e-174ce6d9de83" text="Getting Started" icon="" activator="./doc/products/vinci/getting-started.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="8c47af57-3323-499a-acf8-3dcb93a9d117" text="User Guide" activator="./doc/products/vinci/user-guide/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="80f49937-acb4-4a53-a4de-fdf20177469e" text="Developer Guide" activator="./doc/products/vinci/developer-guide/index.html"/>
     </elements>
-    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" title="Developer Tools" id="5c47f3b9-4249-4b6e-8ec7-dec86fed1f7f" text="Developer Tools" icon="las la-tools">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Windows" id="9a230680-604b-45b9-a69a-01ba44cd18fb" text="Windows" icon="lab la-windows"/>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" id="7d7723b2-f4e8-42fd-9261-6b7183c5d8de" text="Reference">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="bab87354-973b-4660-9b95-cf1312926348" text="Model" icon="las la-project-diagram" activator="./doc/model-doc/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="2188d48e-d376-4072-adf1-6a45a3be4e2a" text="Command Line Interface" icon="las la-terminal" activator="./doc/cli/index.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="79e35e84-cdfc-4f2c-baf8-ac9927635dc7" text="Javadoc" icon="lab la-java" activator="./doc/apidocs/index.html"/>
     </elements>
   </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="36a3e698-05d1-4a0f-b679-0ebc3b46782a" text="Support" icon="lar la-life-ring" sectionStyle="Card" sectionColumns="2" activator="support.html">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="4aee6cb9-1926-468a-8b4e-3fcaf662998f" text="Forum" icon="las la-comments" role="Section" markdownContent="[Stack Overflow](https://stackoverflow.com/tour) is where the Nasdanika community meets under ``nasdanika`` tag. &#xD;&#xA;Asking and answering questions is a great way to share knowledge about Nasdanika products. &#xD;&#xA;&#xD;&#xA;* If you have a question - [search for an existing answer](https://stackoverflow.com/questions/tagged/nasdanika) first.&#xD;&#xA;* [Ask a question](https://stackoverflow.com/questions/ask?tags=nasdanika) if the above step did not help.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" id="1e408b1d-2eba-4638-8e4a-1892f2e05ec1" text="Bug tracker" icon="las la-bug" role="Section" markdownContent="Review and create [GitHub issues](https://github.com/Nasdanika/release/issues) for bug reporting and feature requests."/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="78c99b9f-3a0e-42d7-9a58-cedecc00156f" text="Terms of Use" icon="las la-file-contract" role="Context" activator="terms-of-use.html">
+    <actionMappings alias="epl-2" target="b2182121-c51f-42a1-8027-0d85a6272865"/>
+    <actionMappings alias="credits" target="8d887c59-bfc5-4f9c-9d65-1d03171d44a1"/>
+    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" interpolate="true" location="src/site/terms-of-use.md"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="b2182121-c51f-42a1-8027-0d85a6272865" text="Eclipse Public License v 2.0" role="None" activator="eclipse-public-license-2.0.html">
+    <content xsi:type="org.nasdanika.ncore:Resource" location="src/site/EPL-2.0.html"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Credits" id="8d887c59-bfc5-4f9c-9d65-1d03171d44a1" text="Credits" icon="las la-handshake" role="Context" activator="credits.html"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Sources" id="4583d557-a3ed-4ead-b2bb-2d3688e0beeb" text="Source code" icon="lab la-git" role="Context"/>
+  <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="src/site/index.md"/>
 </org.nasdanika.vinci.app:Action>

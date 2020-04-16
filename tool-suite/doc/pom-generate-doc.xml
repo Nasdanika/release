@@ -156,6 +156,8 @@
 									<arg value="${project.build.directory}\site-progress.txt"/>									
 									<arg value="-o"/>
 									<arg value="${project.build.directory}\site"/>
+									<arg value="-b"/>
+									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/"/>
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\site.vinci"/>
 								</exec>
@@ -176,6 +178,8 @@
 									<arg value="${project.build.directory}\doc-application-progress.txt"/>									
 									<arg value="-o"/>
 									<arg value="${project.build.directory}\doc"/>
+									<arg value="-b"/>
+									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/doc/"/>
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\documentation.vinci"/>
 								</exec>
