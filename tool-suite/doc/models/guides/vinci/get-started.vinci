@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="" id="d2eb2179-7355-4900-b37b-0c603914a6aa" text="Get Started" sectionStyle="Default" activator="index.html" markdownContent="...intro... this guide ...">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="bbc2a81d-bf6a-45ab-aa4e-045729e23859" text="Installation" role="Section" markdownContent="installation option&#xD;&#xA;"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="98472fbe-5ee3-4e54-ae86-aa8b42d93608" text="Create a project and a model" role="Section" markdownContent="new modeling project, new vinci model."/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="ad083066-fea7-4642-ba97-911e6545c1d4" text="Populate the model" role="Section" markdownContent="ways to edit - 2 editors, 2 representations. spacial/sequential. Double-click diagram open"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="9e0d9ac0-6e26-432c-ad1a-93250ce2b795" text="Generate content" role="Section" markdownContent="with run configuration - ignore warning and ignore error output - exit code 0."/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="1338c73a-3a3a-4be7-8958-8609984e9aea" text="Next steps" role="Section" markdownContent="Study the model, use more components (overview?), command line - what is possible - call from automated build - circle ci?"/>
+  <content xsi:type="org.nasdanika.vinci.components:ListOfContents" role="Section"/>
+</org.nasdanika.vinci.app:Action>

@@ -49,7 +49,7 @@
 
 								<copy file="${project.basedir}/../repository/root/nsd.ini" toFile="${project.build.directory}/cli/eclipse/nsd.ini"/>
 								<copy file="${project.build.directory}/cli/eclipse/eclipsec.exe" toFile="${project.build.directory}/cli/eclipse/nsd.exe"/>
-								 
+								  
 								<!-- Generate documentation -->
 								<echo message="Generating documentation"/>
 								
@@ -83,13 +83,13 @@
 									<arg value="generate"/>
 									<arg value="eclipse-help"/>
 									<arg value="-l"/>
-									<arg value="content/cli"/>
+									<arg value="content/reference/cli"/>
 									<arg value="-L"/>
 									<arg value="toc.xml#cli"/>
 									<arg value="-p"/>
 									<arg value="${project.build.directory}\cli-eclipse-help-progress.txt"/>									
 									<arg value="-o"/>
-									<arg value="${project.basedir}\content\cli"/>
+									<arg value="${project.basedir}\content\reference\cli"/>
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\generated\cli.vinci"/>
 								</exec>
@@ -129,16 +129,63 @@
 									<arg value="generate"/>
 									<arg value="eclipse-help"/>
 									<arg value="-l"/>
-									<arg value="content/ecore"/>
+									<arg value="content/reference/ecore"/>
 									<arg value="-L"/>
 									<arg value="toc.xml#ecore"/>
 									<arg value="-p"/>
 									<arg value="${project.build.directory}\ecore-eclipse-help-progress.txt"/>									
 									<arg value="-o"/>
-									<arg value="${project.basedir}\content\ecore"/>
+									<arg value="${project.basedir}\content\reference\ecore"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\ecore.vinci"/>
+									<arg value="${project.basedir}\models\ecore.vinci"/>
 								</exec>																
+								
+								<echo message="Credits Eclpse Help"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="eclipse-help"/>
+									<arg value="-l"/>
+									<arg value="content/credits"/>
+									<arg value="-L"/>
+									<arg value="toc.xml#credits"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\credits-eclipse-help-progress.txt"/>									
+									<arg value="-o"/>
+									<arg value="${project.basedir}\content\credits"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\models\credits.vinci"/>
+								</exec>
+																
+								<echo message="Vinci Guides Eclipse help"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="eclipse-help"/>
+									<arg value="-l"/>
+									<arg value="content/guides/vinci"/>
+									<arg value="-L"/>
+									<arg value="toc.xml#vinci-guides"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\vinci-guides-eclipse-help-progress.txt"/>									
+									<arg value="-o"/>
+									<arg value="${project.basedir}\content\guides\vinci"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\models\guides\vinci\vinci.vinci"/>
+								</exec>																
+																								
 								
 								<!-- Site -->
 								<echo message="Site"/>
@@ -159,7 +206,7 @@
 									<arg value="-b"/>
 									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\site.vinci"/>
+									<arg value="${project.basedir}\models\site.vinci"/>
 								</exec>
 
 								<!-- Documentation site -->
@@ -181,7 +228,7 @@
 									<arg value="-b"/>
 									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/doc/"/>
 									<arg value="-f"/>									
-									<arg value="${project.basedir}\documentation.vinci"/>
+									<arg value="${project.basedir}\models\documentation.vinci"/>
 								</exec>
 
 							</target>

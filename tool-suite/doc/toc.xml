@@ -2,10 +2,25 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 
 <toc label="Nasdanika" link_to="../org.nasdanika.help/toc.xml#Nasdanika">
-   <topic href="content/cli/f408f810-b043-4c22-a4ed-dba1d01e835f.html" label="Command Line Interface">
-      <anchor id="cli"/>
+   <topic label="Guides">
+      <anchor id="guides"/>
+	   <topic label="Vinci">
+	      <anchor id="vinci-guides"/>
+	   </topic>
    </topic>
-   <topic href="content/ecore/3c4c7bb9-2a5f-4523-b3b4-5fda76483d67.html" label="Model">
-      <anchor id="ecore"/>
+      
+   <topic label="Reference">
+      <anchor id="reference"/>
+   
+	   <topic href="content/reference/cli/nsd.html" label="Command Line Interface">
+	      <anchor id="cli"/>
+	   </topic>
+	   <topic href="content/reference/ecore/index.html" label="Model">
+	      <anchor id="ecore"/>
+	   </topic>      
    </topic>
+
+   <topic href="content/credits/credits.html" label="Credits">
+   </topic>
+   
 </toc>

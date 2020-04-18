@@ -8,11 +8,15 @@
             primary="false">
       </toc>
       <toc
-            file="content/ecore/toc.xml"
+            file="content/reference/ecore/toc.xml"
             primary="false">
       </toc>
       <toc
-            file="content/cli/toc.xml"
+            file="content/reference/cli/toc.xml"
+            primary="false">
+      </toc>
+      <toc
+            file="content/guides/vinci/toc.xml"
             primary="false">
       </toc>
    </extension>

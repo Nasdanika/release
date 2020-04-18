@@ -4,7 +4,7 @@
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Principal - empty" id="02fb8575-f46b-40cb-9ec5-65f59712366e"/>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Documentation" id="7e6cba54-afbd-4a03-be11-6eaa40e82dc8" text="Documentation" icon="las la-book" activator="" activatorType="None">
     <elements xsi:type="org.nasdanika.vinci.app:ActionCategory" id="17fbda7d-f712-498a-8c82-a9dab0b4b926" color="" text="Vinci">
-      <elements xsi:type="org.nasdanika.vinci.app:Action" id="74c56372-4ffc-4b2a-9f7e-174ce6d9de83" text="Get Started" icon="" activator="./doc/products/vinci/getting-started.html"/>
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="74c56372-4ffc-4b2a-9f7e-174ce6d9de83" text="Get Started" icon="" activator="./doc/products/vinci/get-started.html"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" id="8c47af57-3323-499a-acf8-3dcb93a9d117" text="User Guide" activator="./doc/products/vinci/user-guide/index.html"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" id="80f49937-acb4-4a53-a4de-fdf20177469e" text="Developer Guide" activator="./doc/products/vinci/developer-guide/index.html"/>
     </elements>
@@ -21,14 +21,16 @@
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="78c99b9f-3a0e-42d7-9a58-cedecc00156f" text="Terms of Use" icon="las la-file-contract" role="Context" activator="terms-of-use.html">
     <actionMappings alias="epl-2" target="b2182121-c51f-42a1-8027-0d85a6272865"/>
     <actionMappings alias="credits" target="8d887c59-bfc5-4f9c-9d65-1d03171d44a1"/>
-    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="src/site/terms-of-use.md"/>
+    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="../src/site/terms-of-use.md"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="b2182121-c51f-42a1-8027-0d85a6272865" text="Eclipse Public License v 2.0" role="None" activator="eclipse-public-license-2.0.html">
-    <content xsi:type="org.nasdanika.ncore:Resource" location="src/site/EPL-2.0.html"/>
+    <content xsi:type="org.nasdanika.ncore:Resource" location="../src/site/EPL-2.0.html"/>
   </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" title="Credits" id="8d887c59-bfc5-4f9c-9d65-1d03171d44a1" text="Credits" icon="las la-handshake" role="Context" activator="credits.html">
-    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" location="src/credits.md"/>
+    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" location="../src/credits.md"/>
   </elements>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Sources" id="4583d557-a3ed-4ead-b2bb-2d3688e0beeb" text="Source code" icon="lab la-git" role="Context"/>
-  <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="src/site/index.md"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="4583d557-a3ed-4ead-b2bb-2d3688e0beeb" text="Source Code" icon="lab la-git" role="Context" markdownContent="Nasdanika source code is hosted on GitHub in the following repositories:&#xD;&#xA;&#xD;&#xA;* [Release](https://github.com/Nasdanika/release)&#xD;&#xA;* [Core](https://github.com/Nasdanika/core)&#xD;&#xA;* [HTML](https://github.com/Nasdanika/html)&#xD;&#xA;* [Vinci](https://github.com/Nasdanika/vinci)&#xD;&#xA;&#xD;&#xA;## How to contribute&#xD;&#xA;&#xD;&#xA;We use the [Fork and Pull Model](https://help.github.com/articles/about-collaborative-development-models/).&#xD;&#xA;You can find more information about collaborative development at GitHub in this article - [Collaborating with issues and pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests).&#xD;&#xA;&#xD;&#xA;When you contribute code, please make sure that the changes are clearly identifiable. In particular, avoid making non-functional changes in the code which you do not touch, &#xD;&#xA;e.g. auto-formatting of an entire compilation unit. &#xD;&#xA;&#xD;&#xA;### Contributions Under Repository License&#xD;&#xA;&#xD;&#xA;According to the [Section 6 of the GitHub Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license), whenever you make a contribution to one of our repositories you license your contribution under the terms of ${action-mappings/epl-2}, and you agree that you have the right to license your contribution under those terms. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
+    <actionMappings alias="epl-2" target="b2182121-c51f-42a1-8027-0d85a6272865"/>
+  </elements>
+  <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="../src/site/index.md"/>
 </org.nasdanika.vinci.app:Action>

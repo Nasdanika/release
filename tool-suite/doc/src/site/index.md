@@ -7,7 +7,7 @@ Nasdanika specializes in creating tools and solutions for Model-Driven developme
 
 Nasdanika Vinci is a visual modeling tool  for creating models of web sites and then generating static web sites from the models.
 
-* [Getting Started](doc/products/vinci/getting-started.html)
+* [Get Started](doc/products/vinci/get-started.html)
 * [User Guide](doc/products/vinci/user-guide/index.html)
 * [Developer Guide](doc/products/vinci/developer-guide/index.html) 
 
