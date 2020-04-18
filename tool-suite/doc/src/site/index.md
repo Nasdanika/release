@@ -7,9 +7,9 @@ Nasdanika specializes in creating tools and solutions for Model-Driven developme
 
 Nasdanika Vinci is a visual modeling tool  for creating models of web sites and then generating static web sites from the models.
 
-* [Get Started](doc/products/vinci/get-started.html)
-* [User Guide](doc/products/vinci/user-guide/index.html)
-* [Developer Guide](doc/products/vinci/developer-guide/index.html) 
+* [Get Started](doc/guides/vinci/get-started/index.html)
+* [User Guide](doc/guides/vinci/user/index.html)
+* [Developer Guide](doc/guides/vinci/developer/index.html) 
 
 ## Packages
 
@@ -29,14 +29,14 @@ By downloading Nasdanika packages your are agreeing to the ${action-mappings/ter
 
 ### Developer Tools
 
-* [Nasdanika Developer Tools for Windows]()
-* [Nasdanika Developer Tools for Windows JDK bundle]() - a self-contained package which includes [Zulu Community OpenJDK 8](https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)     
+* [Nasdanika Developer Tools for Windows](packages/nasdanika-developer-tools-2020-03-win32-x86_64.zip)
+* [Nasdanika Developer Tools for Windows JDK bundle](packages/nasdanika-developer-tools-2020-03-open-jdk-8-win32-x86_64.zip) - a self-contained package which includes [Zulu Community OpenJDK 8](https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)     
 
 ## Reference documentation
 
-* [Model](doc/model-doc/index.html)
-* [Command Line Interface](doc/cli/index.html) (CLI)
-* [Javadoc](doc/javadoc/index.html)
+* [Model](doc/refernce/model-doc/index.html)
+* [Command Line Interface](doc/reference/cli/index.html) (CLI)
+* [Javadoc](doc/reference/javadoc/index.html)
 
 ## Case study
 
