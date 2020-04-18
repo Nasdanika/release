@@ -164,6 +164,7 @@
 								</exec>
 																
 								<echo message="Vinci Guides Eclipse help"/>
+								
 								<exec
 									dir="${project.build.directory}\cli\eclipse"
 									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
@@ -185,8 +186,11 @@
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\models\guides\vinci\vinci.vinci"/>
 								</exec>																
-																								
-								
+
+								<copy toDir="${project.basedir}/content/guides">
+									<fileset dir="${project.basedir}/resources/doc/guides"/>
+								</copy>
+																																
 								<!-- Site -->
 								<echo message="Site"/>
 								<exec
@@ -230,7 +234,10 @@
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\models\documentation.vinci"/>
 								</exec>
-
+								
+								<copy toDir="${project.build.directory}/doc">
+									<fileset dir="${project.basedir}/resources/doc"/>
+								</copy>								
 							</target>
 						</configuration>
 						<goals>
