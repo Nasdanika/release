@@ -22,15 +22,15 @@ By downloading Nasdanika packages your are agreeing to the ${action-mappings/ter
 
 * P2 repository (update site):
     * URL: ``${base-uri}packages/tool-suite/repository``
-    * [Archived](packages/tool-suite/org.nasdanika.tools.repository-2020.03.00-SNAPSHOT.zip)
+    * [Archived](packages/tool-suite/org.nasdanika.tools.repository-2020.06.00-SNAPSHOT.zip)
 * Packages:
-    * [Nasdanika Tool Suite for Windows](packages/tool-suite/nasdanika-tool-suite-2020-03-win32-x86_64.zip) - requires Java Runtime Environment
-    * [Nasdanika Tool Suite for Windows JDK bundle](packages/tool-suite/nasdanika-tool-suite-2020-03-openjdk-8-win32-x86_64.zip) - a self-contained package which includes [Zulu Community OpenJDK 8](https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)     
+    * [Nasdanika Tool Suite for Windows](packages/tool-suite/nasdanika-tool-suite-2020-06-win32-x86_64.zip) - requires Java Runtime Environment
+    * [Nasdanika Tool Suite for Windows JDK bundle](packages/tool-suite/nasdanika-tool-suite-2020-06-openjdk-8-win32-x86_64.zip) - a self-contained package which includes [Zulu Community OpenJDK 8](https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)     
 
 ### Developer Tools
 
-* [Nasdanika Developer Tools for Windows](packages/nasdanika-developer-tools-2020-03-win32-x86_64.zip)
-* [Nasdanika Developer Tools for Windows JDK bundle](packages/nasdanika-developer-tools-2020-03-open-jdk-8-win32-x86_64.zip) - a self-contained package which includes [Zulu Community OpenJDK 8](https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)     
+* [Nasdanika Developer Tools for Windows](packages/nasdanika-developer-tools-2020-06-win32-x86_64.zip)
+* [Nasdanika Developer Tools for Windows JDK bundle](packages/nasdanika-developer-tools-2020-06-open-jdk-8-win32-x86_64.zip) - a self-contained package which includes [Zulu Community OpenJDK 8](https://www.azul.com/downloads/zulu-community/?architecture=x86-64-bit&package=jdk)     
 
 ## Reference documentation
 

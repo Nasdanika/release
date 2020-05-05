@@ -4,11 +4,11 @@
 	
 	<artifactId>org.nasdanika.tools.binary</artifactId>
 	<groupId>org.nasdanika.tools</groupId>
-	<version>2020.03.00-SNAPSHOT</version>
+	<version>2020.06.00-SNAPSHOT</version>
 	
 	<properties>
-		<windows-binary-name>nasdanika-tool-suite-2020-03-win32-x86_64.zip</windows-binary-name>
-		<windows-jdk-binary-name>nasdanika-tool-suite-2020-03-openjdk-8-win32-x86_64.zip</windows-jdk-binary-name>
+		<windows-binary-name>nasdanika-tool-suite-2020-06-win32-x86_64.zip</windows-binary-name>
+		<windows-jdk-binary-name>nasdanika-tool-suite-2020-06-openjdk-8-win32-x86_64.zip</windows-jdk-binary-name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 		
@@ -27,7 +27,7 @@
 						<configuration>
 							<target>
 								<get 
-									src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-03-win32-x86_64.zip" 
+									src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-06-win32-x86_64.zip" 
 									dest="${project.build.directory}/eclipse.zip"/>
 								
 								<!-- Unzip binary downloaded by pom-cli -->
@@ -52,7 +52,7 @@
 									includes="eclipse/**"/>
 								 
 								<!-- JDK bundle -->
-								<get src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-03-open-jdk-8-win32-x86_64.zip" dest="${project.build.directory}/eclipse-jdk.zip"/>
+								<get src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-06-open-jdk-8-win32-x86_64.zip" dest="${project.build.directory}/eclipse-jdk.zip"/>
 								
 								<!-- Unzip -->
 								<unzip src="${project.build.directory}/eclipse-jdk.zip" dest="${project.build.directory}/eclipse-jdk"/>

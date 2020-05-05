@@ -7,7 +7,7 @@
 	<groupId>org.nasdanika.foundation</groupId>
 	<artifactId>maven-osgi</artifactId>
 	<packaging>pom</packaging>
-	<version>2020.03.00-SNAPSHOT</version>
+	<version>2020.06.00-SNAPSHOT</version>
 
 	<build>
 		<plugins>

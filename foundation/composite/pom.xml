@@ -7,7 +7,7 @@
 	<groupId>org.nasdanika.foundation</groupId>
 	<artifactId>composite-repo</artifactId>
 	<packaging>pom</packaging>
-	<version>2020.03</version>
+	<version>2020.06</version>
 
 	<pluginRepositories>
 		<pluginRepository>
@@ -27,8 +27,8 @@
 	</prerequisites>
 
 	<properties>
-		<eclipse-repo>http://download.eclipse.org/releases/2019-12</eclipse-repo>
-		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20191126223242/repository</orbit-repo>
+		<eclipse-repo>http://download.eclipse.org/releases/2020-03</eclipse-repo>
+		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200224183213/repository</orbit-repo>
 	</properties>
 
 	<build>
