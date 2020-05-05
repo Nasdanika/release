@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="" id="860cba03-eca8-4893-8b84-21ae0bfb1bc9" text="Vinci" activator="index.html" pageTemplate="">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="" id="860cba03-eca8-4893-8b84-21ae0bfb1bc9" text="Vinci" activator="index.html" pageTemplate="">
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Get Started" ref="get-started.vinci" path="get-started"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="User Guide" ref="user.vinci" path="user"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Developer Guide" ref="developer.vinci" path="developer"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="16b4e71a-0717-41af-b744-306499b82ff0" text="Creating Technical Documentation">
+    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" location="technical-documentation.md"/>
+  </elements>
 </org.nasdanika.vinci.app:Action>
