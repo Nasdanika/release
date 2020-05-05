@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Flexmark with all dependencies
 Bundle-SymbolicName: com.vladsch.flexmark
-Bundle-Version: 0.60.2.qualifier
+Bundle-Version: 0.61.24.qualifier
 Bundle-Vendor: Vladimir Schneider
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: com.vladsch.flexmark.ast,
