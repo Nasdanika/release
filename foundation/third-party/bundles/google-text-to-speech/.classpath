@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/animal-sniffer-annotations-1.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/annotations-4.1.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/api-common-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/auto-value-annotations-1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/checker-compat-qual-2.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-codec-1.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-lang3-3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/conscrypt-openjdk-uber-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/error_prone_annotations-2.3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/failureaccess-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gax-1.56.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gax-grpc-1.56.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/google-auth-library-credentials-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/google-auth-library-oauth2-http-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/google-cloud-texttospeech-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/google-http-client-1.34.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/google-http-client-jackson2-1.34.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-alts-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-api-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-auth-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-context-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-core-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-grpclb-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-netty-shaded-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-protobuf-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-protobuf-lite-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grpc-stub-1.28.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gson-2.8.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/guava-28.2-android.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/httpclient-4.5.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/httpcore-4.4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-core-2.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jsr305-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/opencensus-api-0.24.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/opencensus-contrib-http-util-0.24.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/perfmark-api-0.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/proto-google-cloud-texttospeech-v1-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/proto-google-cloud-texttospeech-v1beta1-0.83.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/proto-google-common-protos-1.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/protobuf-java-3.11.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/protobuf-java-util-3.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/threetenbp-1.4.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
