@@ -7,11 +7,10 @@
 	<parent>
 		<groupId>org.nasdanika.tools</groupId>
 		<artifactId>org.nasdanika.tools.parent</artifactId>
-		<version>2020.06.00-SNAPSHOT</version>
+		<version>2020.6.0-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
 	<properties>
-		<siteDir>tool-suite/${project.version}/${env.CIRCLE_BRANCH}</siteDir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>	
 	<build>

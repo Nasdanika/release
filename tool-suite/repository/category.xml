@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.nasdanika.tools.feature_2020.6.0.qualifier.jar" id="org.nasdanika.tools.feature" version="2020.06.00.qualifier">
+   <feature url="features/org.nasdanika.tools.feature_2020.6.0.qualifier.jar" id="org.nasdanika.tools.feature" version="2020.6.0.qualifier">
       <category name="org.nasdanika.tools"/>
    </feature>
    <category-def name="org.nasdanika.tools" label="Tools">

@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.tools</groupId>
 	<artifactId>org.nasdanika.tools.parent</artifactId>
-	<version>2020.06.00-SNAPSHOT</version>
+	<version>2020.6.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<!-- tycho requires maven >= 3.0 -->
@@ -110,6 +110,7 @@
 		<module>feature</module>
 		<module>repository</module>
 	</modules>
+
 	<name>Nasdanika Tool Suite Parent</name>
 	<organization>
 		<name>Nasdanika LLC</name>
