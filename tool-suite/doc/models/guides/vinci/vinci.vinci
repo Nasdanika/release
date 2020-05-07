@@ -3,7 +3,4 @@
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Get Started" ref="get-started.vinci" path="get-started"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="User Guide" ref="user.vinci" path="user"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Developer Guide" ref="developer.vinci" path="developer"/>
-  <elements xsi:type="org.nasdanika.vinci.app:Action" id="16b4e71a-0717-41af-b744-306499b82ff0" text="Creating Technical Documentation">
-    <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" location="technical-documentation.md"/>
-  </elements>
 </org.nasdanika.vinci.app:Action>
