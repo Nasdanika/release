@@ -38,6 +38,11 @@
 			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/vinci/repository</url>
 			<layout>p2</layout>
 		</repository>
+		<repository>
+			<id>rigel</id>
+			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/rigel/repository</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 	<build>
 		<plugins>
