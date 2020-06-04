@@ -1,0 +1,74 @@
+Welcome to the section on model-driven development concepts!
+
+This section is a bit abstract. 
+
+It's purpose is to lay a foundation so that what you see in the following hands-on sections makes more sense.
+ 
+Please feel free to skip it and dive right into action in the subsequent sections if this is your learning style.
+ 
+You can get back to this section later. 
+
+Or never, if you find the modeling approach self-explanatory. 
+ 
+Nasdanika Vinci is a model-driven development tool. 
+What it means is that in order to create a web site we will create a model and then the actual site content will be generated from the model.
+
+What is a model?
+ 
+Generally speaking, a model is a description of a specific problem area also known as a problem domain.
+ 
+For example, a Vinci model describes a web site structure and a map describes a territory.
+
+Typically a model is an abstraction of the problem domain, 
+
+which means that it removes or hides non-essential details allowing to focus on the details
+which essential for achieving a particular goal. 
+
+Nasdanika Vinci models are built with the Eclipse Modeling Framework or E.M.F.
+ 
+In EMF a model is a tree of model elements of different type which can reference each other.
+
+A model element can also be called an object and its type is called a class.
+
+Model elements can have structural features and operations.
+
+A structural feature is either an attribute or a reference.
+ 
+For example a class Person may have an attribute name and a reference relatives.
+
+Structural features can be have one or more values. For example, a reference to relatives may point to more than one person.
+
+References can be unidirectional or bi-directional. Also references can be containing or non-containing.
+ 
+A model element, except the root model element, must be contained in a single containment reference.
+
+Model classes support multiple inheritance where a sub-class inherits structural features and operations from its super classes
+
+and may define its own structural features and operations. 
+
+A model can have multiple representations. 
+
+In this guide we will take a look at the tree representation, the diagram representation, and the properties view.
+
+It is important to understand that all these representations are backed by the same model.
+
+Model classes are grouped into packages.
+
+Nasdanika Vinci uses five model packages with increasing level of abstraction.
+
+The N-core package contains core classes used by the classes from the other packages.
+
+The HTML package provides classes for generating HTML.
+ 
+The Bootstrap packages provides classes for generating Bootstrap elements, which is a higher level of abstraction than HTML.
+
+The application model raises the abstraction level even higher.
+ 
+At this level a site is a tree of actions with content.
+ 
+In this guide we will operate at this level of abstraction.
+
+Eventually, the components model provides high-level components such as tables of content, and text-to-speech components.     
+     
+
+ 

@@ -1,0 +1,19 @@
+Hello and welcome to the Nasdanika Vinci Get Started Guide!
+
+This guide will walk you through the process of creating a model of a site using Nasdanika Vinci, and then generating and publishing the site.
+
+We will start with the concepts of model-driven development and Nasdanika Vinci.
+
+Then we will go through the installation process of the Nasdanika Tool Suite, which includes Nasdanika Vinci.
+
+After the installation we will create a modeling project and an initial model.
+We will then generate a starter site from the model and publish it to the Internet via GitHub pages.
+
+After that we will populate the model and generate site content from the Eclipse Development Environment User Interface and also using the Nasdanika Command Line Interface.
+
+We will complete the guide with a review and outline of the next steps. 
+
+
+
+  
+

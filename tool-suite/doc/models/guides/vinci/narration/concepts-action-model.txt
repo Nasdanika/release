@@ -1,0 +1,58 @@
+In this guide we will be generating a web site from an action model.
+
+In this model an action is a unit of interaction between the user and the web site.
+
+Actions are organized in a hierarchy. 
+The root of the hierarchy is called the root action.
+The first navigation child of the root action is called the principal action.
+
+Actions have activator and activator type attributes.
+These attributes define what happens when the user clicks on the action link.
+In this guide we will use Reference activator type.
+
+Actions may have content. 
+The content is displayed in the content panel when the action is activated.
+
+Actions can be in different roles. 
+Action role defines placement of the action link or action content on the page.
+
+The root action is displayed in the page header.
+
+The principal action is displayed in the navigation bar.
+
+If the root action has more than one navigation child, then navigation siblings of the principal action are displayed in the header on the right.
+
+Context children of the root action are displayed in the footer.
+
+Navigation children of the principal action are displayed in the navigation panel.
+They can be grouped into categories and displayed as a list or as a tree depending on the navigation depth.
+
+Context children of the principal action are displayed in the navigation bar to the right of the principal action.
+
+Context children of the selected action are displayed to the right of the action header.
+
+Action content is displayed in the content panel. 
+
+Section children are displayed in the content panel below the action content.
+
+Content left and content right children of the selected action are displayed in left and right sub-panels of the content panel.    
+
+Let's take a quick look at a few examples of actions in different roles.
+
+In this example "Joe Doe" is the root action and "Resume" is the principal action.
+"Employment history" is a category grouping navigation actions Employer One, Employer Two, and Employer Three.
+These actions do not have navigation children and therefore are shown as a list.
+
+Skills is another action category. Skills navigation actions are nested and therefore are displayed as a tree.
+
+In this example "Nasdanika" is the root action.
+The principal action text is blank and therefore it is not shown.
+"Documentation" and "Support" are second and third navigation children of the root action.
+The footer contains context children of the root action.
+
+All right, we are done with the theory! 
+Now it is time to install the Nasdanika Tool Suite and get down to modeling and code generation!
+   
+ 
+
+ 

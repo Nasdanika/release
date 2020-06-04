@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="" id="d2eb2179-7355-4900-b37b-0c603914a6aa" text="Get Started" sectionStyle="Default" activator="index.html" markdownContent="This guide will walk you through installation of Nasdanka Tool Suite, creation of a modeling project with a Vinci model, modeling process, and generation of a web site. &#xD;&#xA;Sources of the project created in this guide are on [GitHub](https://github.com/Nasdanika/vinci-get-started) - you can clone them and explore/modify. &#xD;&#xA;You can also use the [commit history](https://github.com/Nasdanika/vinci-get-started/commits/master) to explore modifictions made at each steps in the guide and to download the repository at a particular point in the history.">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="" id="d2eb2179-7355-4900-b37b-0c603914a6aa" text="Get Started" sectionStyle="Default" activator="index.html" markdownContent="This guide will walk you through installation of Nasdanka Tool Suite, creation of a modeling project with a Vinci model, modeling process, and generation of a web site. &#xD;&#xA;Sources of the project created in this guide are on [GitHub](https://github.com/Nasdanika/vinci-get-started) - you can clone them and explore/modify. &#xD;&#xA;You can also use the [commit history](https://github.com/Nasdanika/vinci-get-started/commits/master) to explore modifictions made at each steps in the guide and to download the repository at a particular point in the history.">
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="884de65f-1b34-4fdd-b6bf-552a57addc80" text="Concepts" role="Section" sectionStyle="Default">
+    <elements xsi:type="org.nasdanika.vinci.app:Action" title="Narration" id="4d29b6c8-047a-46e5-9709-eac993b3e1bb" text="Narration - Overview" role="Context" activatorType="Inline" markdownContent="">
+      <content xsi:type="org.nasdanika.vinci.components:TextToSpeechResource" language="en-US" voice="en-US-Wavenet-D" path="concepts.mp3" location="narration/concepts.txt">
+        <appearance>
+          <attributes xsi:type="org.nasdanika.ncore:Property" value="height:2em" name="style"/>
+        </appearance>
+      </content>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" id="24970a18-20c2-4d9f-b16e-ab8d4954ba9b" text="Action Model" role="Section">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="Narration" id="b0f5f0c4-92b9-4f7d-b479-6616a731ae76" text="Narration - Overview" role="Context" activatorType="Inline" markdownContent="">
+        <content xsi:type="org.nasdanika.vinci.components:TextToSpeechResource" language="en-US" voice="en-US-Wavenet-D" path="concepts-action-model.mp3" location="narration/concepts-action-model.txt">
+          <appearance>
+            <attributes xsi:type="org.nasdanika.ncore:Property" value="height:2em" name="style"/>
+          </appearance>
+        </content>
+      </elements>
+    </elements>
+  </elements>
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="bbc2a81d-bf6a-45ab-aa4e-045729e23859" text="Installation" role="Section" sectionStyle="Default" activator="#installation" markdownContent="There are several options for installing the Nasdanika Tool Suite. In this guide we'll use the JDK package because it is self-contained. i.e. it has no pre-resquisites - just download, unzip, and launch ``eclipse.exe``.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
     <elements xsi:type="org.nasdanika.vinci.app:Action" id="02cbf26b-238b-4ab3-888e-a1680a1a3fd0" text="Download" role="Section" activator="#installation-download" markdownContent="![download](download.png)"/>
     <elements xsi:type="org.nasdanika.vinci.app:Action" id="c9334c64-397c-48ca-9943-64eb19d73240" text="Extract" role="Section" activator="#installation-extract" markdownContent="![extract](extract.png)&#xD;&#xA;&#xD;&#xA;![extract destination](extract-destination.png)&#xD;&#xA;&#xD;&#xA;"/>
@@ -10,6 +28,13 @@
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="ad083066-fea7-4642-ba97-911e6545c1d4" text="Populate the model" role="Section" activator="#modeling" markdownContent="ways to edit - 2 editors, 2 representations. spacial/sequential. Double-click diagram open"/>
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="9e0d9ac0-6e26-432c-ad1a-93250ce2b795" text="Generate content" role="Section" activator="#generate" markdownContent="with run configuration - ignore warning and ignore error output - exit code 0."/>
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="1338c73a-3a3a-4be7-8958-8609984e9aea" text="Summary and Next steps" role="Section" activator="#summary" markdownContent="Study the model, use more components (overview?), command line - what is possible - call from automated build - circle ci?"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" title="Narration - Overview" id="2eaab14e-f4b2-4abb-b786-ccec9d06f739" text="Narration - Overview" role="Context" activatorType="Inline" markdownContent="">
+    <content xsi:type="org.nasdanika.vinci.components:TextToSpeechResource" language="en-US" voice="en-US-Wavenet-D" path="overview.mp3" location="narration/overview.txt">
+      <appearance>
+        <attributes xsi:type="org.nasdanika.ncore:Property" value="height:2em" name="style"/>
+      </appearance>
+    </content>
+  </elements>
   <content xsi:type="org.nasdanika.vinci.components:ListOfContents" header="Table of Contents" role="Section" depth="5">
     <appearance>
       <margin size="2" top="false" bottom="false" left="false" right="false" y="true"/>
