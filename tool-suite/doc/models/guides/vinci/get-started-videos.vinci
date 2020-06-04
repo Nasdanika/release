@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.ncore="urn:org.nasdanika.ncore" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.bootstrap="urn:org.nasdanika.vinci.bootstrap" title="get-started-videos" id="233ad893-154d-4034-bccd-ac1050142d82" text="Get Started" tooltip="A series of videos providing an introduction into web site development with Nasdanika Vinci" activator="index.html" markdownContent="This guide is a series of videos providing an introduction into Model-Driven Development of web sites with Nasdanika Vinci.&#xD;&#xA;The series will walk you step-by-step through the process of creating a resume web site and publishing it to GitHub pages - https://nasdanika.github.io/vinci-get-started/.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" pageTemplate="">
+  <content xsi:type="org.nasdanika.vinci.bootstrap:Table" striped="true" hover="true">
+    <appearance>
+      <attributes xsi:type="org.nasdanika.ncore:Property" value="width:auto" name="style"/>
+    </appearance>
+    <header>
+      <rows background="Light">
+        <cells markdownContent="Part"/>
+        <cells markdownContent="Title"/>
+        <cells markdownContent="Duration"/>
+        <cells markdownContent="Summary"/>
+      </rows>
+    </header>
+    <body>
+      <rows>
+        <cells markdownContent="I"/>
+        <cells markdownContent="[Overview and concepts](https://youtu.be/fxbhwr9IYyw)"/>
+        <cells markdownContent="7:20"/>
+        <cells markdownContent="Provides an overview of the guide and explains core concepts of model-driven development and Nasdanika Vinci"/>
+      </rows>
+      <rows>
+        <cells markdownContent="II"/>
+        <cells markdownContent="[Set up](https://youtu.be/HZurSeRV73s)"/>
+        <cells markdownContent="6:48"/>
+        <cells markdownContent="Explains how to install Nasdanika Tool Suite, create a modeing project and a Vinci model and publish them to GitHub."/>
+      </rows>
+      <rows>
+        <cells markdownContent="III"/>
+        <cells markdownContent="[Root and principal actions published](https://youtu.be/4u2z9_1xGEk)"/>
+        <cells markdownContent="7:04"/>
+        <cells markdownContent="Demonstrates creation of a root and principal actions, generation of a site and publishing it to GitHub Pages."/>
+      </rows>
+      <rows>
+        <cells markdownContent="IV"/>
+        <cells markdownContent="[Employment history: Employers](https://youtu.be/Ewk5pRyuAxo)"/>
+        <cells markdownContent="4:13"/>
+        <cells markdownContent="Shows how to populate the resume model with employment history."/>
+      </rows>
+      <rows>
+        <cells markdownContent="V"/>
+        <cells markdownContent="[Employment history: positions and projects](https://youtu.be/s8tD6hqGqvU)"/>
+        <cells markdownContent="4:58"/>
+        <cells markdownContent="The resume model is elaborated by adding positions and projects actions."/>
+      </rows>
+      <rows>
+        <cells markdownContent="VI"/>
+        <cells markdownContent="[Sections, list of contents](https://youtu.be/f3gSEexe3S8)"/>
+        <cells markdownContent="5:18"/>
+        <cells markdownContent="Demonstrates how to use section role and a list of contents."/>
+      </rows>
+      <rows>
+        <cells markdownContent="VII"/>
+        <cells markdownContent="[Skills and action mappings](https://youtu.be/vTU9ll8QB5U)"/>
+        <cells markdownContent="6:24"/>
+        <cells markdownContent="This part starts with further enhancing the list of contents with tooltips. After that it demonstrates creation of actions representing Joe Doe's skillset and referencing a skill action from a project action."/>
+      </rows>
+      <rows>
+        <cells markdownContent="VIII"/>
+        <cells markdownContent="[Command Line Interface](https://youtu.be/o_2svMXmOrI)"/>
+        <cells markdownContent="6:30"/>
+        <cells markdownContent="Shows how to generate site from a model using Nasdanika Command Line Interface (CLI)."/>
+      </rows>
+      <rows>
+        <cells markdownContent="IX"/>
+        <cells markdownContent="[Summary and Next Steps](https://youtu.be/mbUAKkKaurA)"/>
+        <cells markdownContent="7:46"/>
+        <cells markdownContent="Summarizes what has been demonstrated in the previous parts and outlines the next steps on the path of using Nasdanika Vinci."/>
+      </rows>
+    </body>
+  </content>
+</org.nasdanika.vinci.app:Action>

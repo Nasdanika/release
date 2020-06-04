@@ -38,6 +38,10 @@ By downloading Nasdanika packages your are agreeing to the ${action-mappings/ter
 * [Command Line Interface](doc/reference/cli/index.html) (CLI)
 * [Javadoc](doc/reference/javadoc/index.html)
 
+## Sample projects
+
+* [get-started.zip](get-started.zip) - sources of the get started project.
+
 ## Case study
 
 This site and the [documentation](doc/index.html) site were created and generated with Nasdanika Vinci:
