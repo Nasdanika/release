@@ -11,6 +11,13 @@ Nasdanika Vinci is a visual modeling tool  for creating models of web sites and 
 * [User Guide](doc/guides/vinci/user/index.html)
 * [Developer Guide](doc/guides/vinci/developer/index.html) 
 
+#### Ресурсы на русском (Resources in Russian)
+
+* Создаём web-портфолио с генератором сайтов Nasdanika Vinci - три варианта:
+    * [Юдеми курс](https://www.udemy.com/course/nasdanika-vinci-level-1/) (Udemy course).
+    * [Веб сайт](https://tanchora.github.io/vinci_udemy_base_course/courseprogram/) (Web site) - создан в Винчи. 
+    * [Ютуб лист](https://www.youtube.com/playlist?list=PLqZWa5YR2-FhWXAS_yKuAOUtUmLYDGcpf) (YouTube list).
+
 ## Packages
 
 We provide our products in a form of a Eclipse package - Nasdanika Tool Suite. 
