@@ -4,13 +4,13 @@
 	
 	<artifactId>org.nasdanika.developer.tools.binary</artifactId>
 	<groupId>org.nasdanika.developer.tools</groupId>
-	<version>2020.06.00-SNAPSHOT</version>
+	<version>2020.09.00-SNAPSHOT</version>
 	
 	<properties>
 		<base-version>2020-03</base-version>
 		<eclipse-launcher>org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar</eclipse-launcher>
-		<windows-binary-name>nasdanika-developer-tools-2020-06-win32-x86_64.zip</windows-binary-name>
-		<windows-open-jdk-binary-name>nasdanika-developer-tools-2020-06-open-jdk-8-win32-x86_64.zip</windows-open-jdk-binary-name>
+		<windows-binary-name>nasdanika-developer-tools-2020-09-win32-x86_64.zip</windows-binary-name>
+		<windows-open-jdk-binary-name>nasdanika-developer-tools-2020-09-open-jdk-8-win32-x86_64.zip</windows-open-jdk-binary-name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 		
