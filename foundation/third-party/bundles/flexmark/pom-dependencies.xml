@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>com.vladsch.flexmark</artifactId>
-	<version>0.61.24-SNAPSHOT</version>
+	<version>0.62.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<groupId>org.nasdanika.third-party</groupId>
 	<build>
@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>com.vladsch.flexmark</groupId>
 			<artifactId>flexmark-all</artifactId>
-			<version>0.61.24</version>
+			<version>0.62.2</version>
 		</dependency>
 	</dependencies>
 </project>
