@@ -7,7 +7,7 @@
 	<groupId>org.nasdanika.foundation</groupId>
 	<artifactId>maven-osgi</artifactId>
 	<packaging>pom</packaging>
-	<version>2020.06.00-SNAPSHOT</version>
+	<version>2020.09.00-SNAPSHOT</version>
 
 	<build>
 		<plugins>
@@ -66,25 +66,25 @@
 											<id>org.apache.commons:commons-text:1.8</id>
 										</artifact>
 										<artifact>
-											<id>commons-codec:commons-codec:1.13</id>
+											<id>commons-codec:commons-codec:1.14</id>
 										</artifact>
 										<artifact>
-											<id>org.apache.commons:commons-lang3:3.9</id>
+											<id>org.apache.commons:commons-lang3:3.10</id>
 										</artifact>
 										<artifact>
 											<id>com.github.spullara.mustache.java:compiler:0.9.6</id>
 										</artifact>
 										<artifact>
-											<id>org.json:json:20190722</id>
+											<id>org.json:json:20200518</id>
 										</artifact>
 										<artifact>
-											<id>net.sourceforge.plantuml:plantuml:1.2020.8</id>
+											<id>net.sourceforge.plantuml:plantuml:1.2020.12</id>
 										</artifact>
 										<artifact>
 											<id>io.github.azagniotov:ant-style-path-matcher:jar:1.0.0</id>
 										</artifact>
 										<artifact>
-											<id>info.picocli:picocli:jar:4.2.0</id>
+											<id>info.picocli:picocli:jar:4.3.2</id>
 										</artifact>
 										<artifact>
 											<id>org.fusesource.jansi:jansi:jar:1.18</id>
