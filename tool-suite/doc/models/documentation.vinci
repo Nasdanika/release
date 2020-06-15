@@ -12,7 +12,35 @@
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Javadoc" id="75fca0f0-c436-49a7-8c67-0779ef251895" text="Javadoc" icon="lab la-java" activator="javadoc/index.html">
-        <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="b281cd5a-2ed4-45d0-8144-9cff47419236" text="Core">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="aa966962-78a4-480d-8659-571d5500ea46" text="CLI" activator="${base-uri}../products/core/bundles/org.nasdanika.cli/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="70d321c3-7b92-4012-84e8-bc2f88eef50e" text="Common" activator="${base-uri}../products/core/bundles/org.nasdanika.common/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5ada25b5-0a60-4d24-af45-5878c6338ce3" text="Eclipse" activator="${base-uri}../products/core/bundles/org.nasdanika.eclipse/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="a8ed4931-bc53-42a1-a35b-66006fb61098" text="EMF" activator="${base-uri}../products/core/bundles/org.nasdanika.emf/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="34788077-31c2-44df-a189-1fc9d3fdde89" text="Edit" activator="${base-uri}../products/core/bundles/org.nasdanika.emf.edit/apidocs/index.html"/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="056d023b-8523-4abb-a9e8-c9f37fb3c642" text="Presentation" activator="${base-uri}../products/core/bundles/org.nasdanika.emf.presentation/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="1023a763-2aba-4c73-8428-e86882f2135d" text="Help" activator="${base-uri}../products/core/bundles/org.nasdanika.help/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="829e3253-adf4-4c20-b05d-0f95a8e04663" text="Ncore" activator="${base-uri}../products/core/bundles/org.nasdanika.ncore/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="f65880c7-ce50-43a7-9e35-07b7758b9870" text="Edit" activator="${base-uri}../products/core/bundles/org.nasdanika.ncore.edit/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="01492fb3-9a7a-4a62-8535-5d0cc8bc9a28" text="Sirius" activator="">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="d1743882-7b62-4d29-9d1d-ce479cbf6fca" text="Tree" activator="${base-uri}../products/core/bundles/org.nasdanika.sirius.tree/apidocs/index.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="9537e976-1ccd-4244-bdfb-d35037f7477b" text="Edit" activator="${base-uri}../products/core/bundles/org.nasdanika.sirius.tree.edit/apidocs/index.html"/>
+            </elements>
+            <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5ddd7084-d732-403d-a492-914c49b9987d" text="Text to speech" activator="${base-uri}../products/core/bundles/org.nasdanika.texttospeech/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5fd9545f-f4bd-44c0-9114-80299f14a18a" text="UI" activator="${base-uri}../products/core/bundles/org.nasdanika.ui/apidocs/index.html"/>
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="0868aecf-50a2-405d-b36a-a74a5bb5c3a2" text="HTML">
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="56486289-c253-4922-ba96-aef24ae43929" text="Vinci">
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+        </elements>
+        <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
       </elements>
       <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
     </elements>

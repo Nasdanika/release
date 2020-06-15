@@ -47,6 +47,10 @@
         <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
         <target xmi:type="org.nasdanika.vinci.app:Action" href="models/guides/vinci/get-started-videos.vinci#233ad893-154d-4034-bccd-ac1050142d82"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WB7acK5dEeqnZOXXMMmPtQ" name="Javadoc" repPath="#_WB1T0K5dEeqnZOXXMMmPtQ">
+        <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+        <target xmi:type="org.nasdanika.vinci.app:Action" href="models/documentation.vinci#75fca0f0-c436-49a7-8c67-0779ef251895"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_2m-l4ID-EeqGzLvaK4hQpA">
@@ -748,6 +752,10 @@
   </diagram:DSemanticDiagram>
   <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_ycz9kKaEEeq08P-iqRMsCw">
     <target xmi:type="org.nasdanika.vinci.app:Action" href="models/guides/vinci/get-started-videos.vinci#233ad893-154d-4034-bccd-ac1050142d82"/>
+    <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
+  </org.nasdanika.sirius.tree:AdapterFactoryTree>
+  <org.nasdanika.sirius.tree:AdapterFactoryTree uid="_WB1T0K5dEeqnZOXXMMmPtQ">
+    <target xmi:type="org.nasdanika.vinci.app:Action" href="models/documentation.vinci#75fca0f0-c436-49a7-8c67-0779ef251895"/>
     <description xmi:type="org.nasdanika.sirius.tree:AdapterFactoryTreeDescription" href="platform:/plugin/org.nasdanika.vinci.design/description/vinci.odesign#//@ownedViewpoints[name='VinciViewPoint']/@ownedRepresentations[name='vinciAdapterFactoryTree']"/>
   </org.nasdanika.sirius.tree:AdapterFactoryTree>
 </xmi:XMI>
