@@ -47,6 +47,22 @@
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="56486289-c253-4922-ba96-aef24ae43929" text="Vinci">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="a1c60a0a-e51d-4929-ba19-3c0841e30f36" text="App" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.app/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="204a6a2c-1b78-43f2-951e-fd1383d7d360" text="Edit" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.app.edit/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="63162128-2d44-419e-8b1b-5a36834bfc53" text="Bootstrap" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.bootstrap/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="8e9bc079-ddad-49ff-b79e-1429a9e0f3dc" text="Edit" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.bootstrap.edit/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="1ef59de0-48f7-4438-8d08-0ee8ffe59e06" text="Components" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.components/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="0d92bf9f-ad57-4b57-a8ba-936adb86b6ea" text="Edit" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.components.edit/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="9c3f1852-03e0-44e4-95e0-c307b1fd2447" text="Design" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.design/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="117406f2-4ad4-4a7d-929d-8d2fd4192fda" text="Ecore" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.ecore/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="be02e3cc-707c-4f33-878a-722fb13a379a" text="Editor" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.editor/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="09f3401d-67d8-4247-93fc-449c75cf5136" text="EMF" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.emf/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="e4bb6464-ff0c-4093-8b18-f9950b8d0a66" text="HTML" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.html/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="0b36a017-4cfa-4139-80d5-d41b3978864c" text="Edit" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.html.edit/apidocs/index.html"/>
+          </elements>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
