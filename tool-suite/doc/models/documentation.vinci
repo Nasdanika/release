@@ -35,6 +35,15 @@
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="0868aecf-50a2-405d-b36a-a74a5bb5c3a2" text="HTML">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="7cdf302f-cf0e-44c8-a457-9ae601a7c758" text="App" activator="${base-uri}../products/html/bundles/org.nasdanika.html.app/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="d879ca73-bdb9-4d4c-b18a-31f7686cd64f" text="Bootstrap" activator="${base-uri}../products/html/bundles/org.nasdanika.html.bootstrap/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="d9647ed9-f637-41ef-a870-a7c78a68da18" text="ECharts" activator="${base-uri}../products/html/bundles/org.nasdanika.html.echarts/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="b88584ce-4b63-4e99-a7e4-398bbf16d8a8" text="Ecore" activator="${base-uri}../products/html/bundles/org.nasdanika.html.ecore/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="83b271b5-1f19-4ee7-894e-57237cc0b85b" text="EMF" activator="${base-uri}../products/html/bundles/org.nasdanika.html.emf/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="ab22d6b1-e929-4ac6-aec3-5324ebabc6e6" text="Font Awesome" activator="${base-uri}../products/html/bundles/org.nasdanika.html.fontawesome/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="01ff6f6e-eaeb-4a0e-9e8c-2d0c4cc416a3" text="HTML" activator="${base-uri}../products/html/bundles/org.nasdanika.html/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="54e5cab2-3cba-4192-b283-c95ca1bee32c" text="jsTree" activator="${base-uri}../products/html/bundles/org.nasdanika.html.jstree/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="ce086c71-5197-45f0-8b43-c9027142dda9" text="Knockout" activator="${base-uri}../products/html/bundles/org.nasdanika.html.knockout/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="56486289-c253-4922-ba96-aef24ae43929" text="Vinci">
