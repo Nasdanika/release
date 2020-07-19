@@ -53,8 +53,8 @@
 								<!-- Generate documentation -->
 								<echo message="Generating documentation"/>
 								
-								<!-- CLI help -->
-								<echo message="CLI help model"/>
+								<!-- CLI documentation -->
+								<echo message="CLI documentation model"/>
 								<mkdir dir="${project.basedir}\generated"/>
 								<mkdir dir="${project.basedir}\content"/>
 								<exec
@@ -66,7 +66,8 @@
 									<arg value="nsd-cli-workspace"/>
 									<arg value="vinci"/>
 									<arg value="generate"/>
-									<arg value="help"/>
+									<arg value="documentation"/>
+									<arg value="cli"/>
 									<arg value="-o"/>
 									<arg value="${project.basedir}\generated\cli.vinci"/>
 								</exec>
@@ -93,6 +94,46 @@
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\generated\cli.vinci"/>
 								</exec>
+								
+								<!-- Context builders documentation -->
+								<echo message="Context builders documentation model"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="documentation"/>
+									<arg value="context-builders"/>
+									<arg value="-o"/>
+									<arg value="${project.basedir}\generated\context-builders.vinci"/>
+								</exec>
+								
+								<echo message="Context Builders Eclipse help"/>
+								<exec
+									dir="${project.build.directory}\cli\eclipse"
+									executable="${project.build.directory}\cli\eclipse\nsd.exe" 
+									failonerror="true">
+
+									<arg value="-data"/>
+									<arg value="nsd-cli-workspace"/>
+									<arg value="vinci"/>
+									<arg value="generate"/>
+									<arg value="eclipse-help"/>
+									<arg value="-l"/>
+									<arg value="content/reference/context-builders"/>
+									<arg value="-L"/>
+									<arg value="toc.xml#context-builders"/>
+									<arg value="-p"/>
+									<arg value="${project.build.directory}\context-builders-eclipse-help-progress.txt"/>									
+									<arg value="-o"/>
+									<arg value="${project.basedir}\content\reference\context-builders"/>
+									<arg value="-f"/>									
+									<arg value="${project.basedir}\generated\context-builders.vinci"/>
+								</exec>
 																
 								<!-- Ecore Documentation -->
 								<echo message="Ecore documentation model"/>
@@ -105,7 +146,8 @@
 									<arg value="nsd-cli-workspace"/>
 									<arg value="vinci"/>
 									<arg value="generate"/>
-									<arg value="ecore-doc"/>
+									<arg value="documentation"/>
+									<arg value="ecore"/>
 									<arg value="-p"/>
 									<arg value="${project.build.directory}\ecore-doc-model-progress.txt"/>									
 									<arg value="-o"/>

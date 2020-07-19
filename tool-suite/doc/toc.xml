@@ -15,6 +15,9 @@
 	   <topic href="content/reference/cli/nsd.html" label="Command Line Interface">
 	      <anchor id="cli"/>
 	   </topic>
+	   <topic href="content/reference/context-builders/index.html" label="Context builders">
+	      <anchor id="context-builders"/>
+	   </topic>
 	   <topic href="content/reference/ecore/index.html" label="Model">
 	      <anchor id="ecore"/>
 	   </topic>      
