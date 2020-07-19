@@ -9,9 +9,7 @@
       <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Model" ref="ecore.vinci" path="model-doc"/>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="CLI" id="b2ed75c8-38fd-4223-b96e-6fd6ed1642be" text="Command Line Interface" icon="las la-terminal" activator="cli/index.html">
         <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Generated model" ref="../generated/cli.vinci" path=""/>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" id="612292c7-7b3c-46d7-be30-a669b8ae1295" text="Context builders" icon="" tooltip="Extensions contributing to command context, e.g. reading context values from external systems." activator="context-builders/index.html">
-          <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" interpolate="true" location="platform:/plugin/org.nasdanika.cli/doc/context-builders.md"/>
-        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Context builders" ref="../generated/context-builders.vinci" path="context-builders"/>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Javadoc" id="75fca0f0-c436-49a7-8c67-0779ef251895" text="Javadoc" icon="lab la-java" activator="javadoc/index.html">
@@ -72,6 +70,11 @@
       </elements>
       <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
     </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" id="94f0a503-41a4-42a5-a8a4-d0f3f6c052e9" text="Release Notes" icon="las la-history" activator="release-notes/index.html">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="c64ba3c2-aea2-44e2-bc26-1db7f480e34e" text="2020-09" markdownContent="TODO - links to docs&#xD;&#xA;&#xD;&#xA;* Context builders&#xD;&#xA;    * JavaDoc context builder&#xD;&#xA;    * Ecore documentation context builder&#xD;&#xA;    * CLI command to generate context builders documentation as a Vinci model&#xD;&#xA;* Ecore documentation provides instance class names and links to JavaDoc. Example - TODO &#xD;&#xA;* CLI command hierarchy includes ``generate documentation`` command group. The group contains ``cli``, ``context-builders`` and ``ecore`` sub-commands.&#xD;&#xA;* Java API documentation"/>
+      <content xsi:type="org.nasdanika.vinci.components:ListOfContents" role="Navigation"/>
+    </elements>
+    <elements xsi:type="org.nasdanika.vinci.app:Action" id="de63cd9d-f6a5-48f1-b068-e6c64740fe13" text="Resources" markdownContent="* [JavaDoc 1.8](https://docs.oracle.com/javase/8/docs/api/)&#xD;&#xA;* [EMF](https://download.eclipse.org/modeling/emf/emf/javadoc/2.9.0/)&#xD;&#xA;* [Vogella Tutorials](https://www.vogella.com/tutorials/)&#xD;&#xA;* [picocli](https://picocli.info/)"/>
     <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
   </elements>
 </org.nasdanika.vinci.app:Action>

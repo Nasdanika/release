@@ -8,44 +8,63 @@ mounts:
             - https://picocli.info/apidocs/
 
             # Core
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.cli/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.common/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.eclipse/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.emf/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.emf.edit/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.emf.presentation/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.help/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.ncore/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.ncore.edit/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.sirius.tree/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.sirius.tree.edit/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.texttospeech/apidocs/
-            - https://nasdanika.org/builds/${release}/products/core/bundles/org.nasdanika.ui/apidocs/
+            - ../products/core/bundles/org.nasdanika.cli/apidocs/
+            - ../products/core/bundles/org.nasdanika.common/apidocs/
+            - ../products/core/bundles/org.nasdanika.eclipse/apidocs/
+            - ../products/core/bundles/org.nasdanika.emf/apidocs/
+            - ../products/core/bundles/org.nasdanika.emf.edit/apidocs/
+            - ../products/core/bundles/org.nasdanika.emf.presentation/apidocs/
+            - ../products/core/bundles/org.nasdanika.help/apidocs/
+            - ../products/core/bundles/org.nasdanika.ncore/apidocs/
+            - ../products/core/bundles/org.nasdanika.ncore.edit/apidocs/
+            - ../products/core/bundles/org.nasdanika.sirius.tree/apidocs/
+            - ../products/core/bundles/org.nasdanika.sirius.tree.edit/apidocs/
+            - ../products/core/bundles/org.nasdanika.texttospeech/apidocs/
+            - ../products/core/bundles/org.nasdanika.ui/apidocs/
 
             # HTML
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.app/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.bootstrap/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.echarts/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.ecore/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.emf/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.fontawesome/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.jstree/apidocs/
-            - https://nasdanika.org/builds/${release}/products/html/bundles/org.nasdanika.html.knockout/apidocs/
+            - ../products/html/bundles/org.nasdanika.html/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.app/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.bootstrap/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.echarts/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.ecore/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.emf/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.fontawesome/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.jstree/apidocs/
+            - ../products/html/bundles/org.nasdanika.html.knockout/apidocs/
 
             # Vinci
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.app/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.app.edit/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.bootstrap/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.bootstrap.edit/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.cli/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.components/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.components.edit/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.design/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.ecore/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.editor/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.emf/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.html/apidocs/
-            - https://nasdanika.org/builds/${release}/products/vinci/bundles/org.nasdanika.vinci.html.edit/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.app/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.app.edit/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.bootstrap/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.bootstrap.edit/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.cli/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.components/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.components.edit/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.design/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.ecore/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.editor/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.emf/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.html/apidocs/
+            - ../products/vinci/bundles/org.nasdanika.vinci.html.edit/apidocs/
+
+    ecore-doc/:
+        id: org.nasdanika.vinci.cli/ecore-doc-context-builder
+        config:
+            ncore:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.ncore
+            vinci-html:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.vinci.html
+            vinci-bootstrap:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.vinci.bootstrap
+            vinci-app:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.vinci.app
+            vinci-components:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.vinci.components
 
 
