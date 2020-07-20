@@ -273,6 +273,8 @@
 									<arg value="${project.build.directory}\doc"/>
 									<arg value="-b"/>
 									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/doc/"/>
+									<arg value="-B"/>
+									<arg value="../../../models/context-builders.yml"/>									
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\models\documentation.vinci"/>
 								</exec>
