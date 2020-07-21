@@ -13,10 +13,10 @@ pipeline {
 			steps {
 			        build job: 'foundation', parameters: [string(name: 'BRANCH', value: params.BRANCH)]
 			}
-		    }
+		}
 		stage('Core') {
 			steps {
-		        	build job: 'core', parameters: [string(name: 'RELEASE', value: params.BRANCH), string(name: 'BRANCH', value: params.BRANCH)]
+		        build job: 'core', parameters: [string(name: 'RELEASE', value: params.BRANCH), string(name: 'BRANCH', value: params.BRANCH)]
 			}
 		}
 		stage('HTML') {
