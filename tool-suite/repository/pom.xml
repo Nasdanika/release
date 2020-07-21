@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.nasdanika.tools</groupId>
 		<artifactId>org.nasdanika.tools.parent</artifactId>
-		<version>2020.6.0-SNAPSHOT</version>
+		<version>2020.09.0-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
 	<properties>
