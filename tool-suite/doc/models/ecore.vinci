@@ -6,4 +6,5 @@
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="App" ref="../generated/ecore-doc/App.vinci"/>
   <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Components" ref="../generated/ecore-doc/Components.vinci"/>
   <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
+  <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" location="../resources/doc/using-model-documentation.md"/>
 </org.nasdanika.vinci.app:Action>
