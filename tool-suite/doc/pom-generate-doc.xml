@@ -157,6 +157,8 @@
 									<arg value="urn:org.nasdanika.vinci.bootstrap"/>
 									<arg value="urn:org.nasdanika.vinci.app"/>
 									<arg value="urn:org.nasdanika.vinci.components"/>
+									<arg value="urn:org.nasdanika.codegen"/>
+									<arg value="urn:org.nasdanika.codegen.java"/>
 								</exec>
 								
 								<echo message="Ecore documentation Eclipse help"/>
