@@ -44,8 +44,7 @@
 									<arg value="-repository"/>
 									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/products/codegen/repository,https://www.nasdanika.org/builds/${env.BRANCH}/products/vinci/repository,https://www.nasdanika.org/builds/${env.BRANCH}/repositories/composite,https://www.nasdanika.org/builds/${env.BRANCH}/products/core/repository,https://www.nasdanika.org/builds/${env.BRANCH}/products/html/repository"/>
 									<arg value="-installIUs"/>
-									<arg value="org.nasdanika.vinci.feature.feature.group"/>
-									<arg value="org.nasdanika.codegen.feature.feature.group"/>
+									<arg value="org.nasdanika.vinci.feature.feature.group,org.nasdanika.codegen.feature.feature.group"/>
 								</exec>
 
 								<copy file="${project.basedir}/../repository/root/nsd.ini" toFile="${project.build.directory}/cli/eclipse/nsd.ini"/>
