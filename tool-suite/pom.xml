@@ -46,6 +46,11 @@
 			<layout>p2</layout>
 		</repository>
 		-->
+		<repository>
+			<id>codgen</id>
+			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/codegen/repository</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 	<build>
 		<plugins>

@@ -296,6 +296,10 @@ version(s), and exceptions or additional permissions here}.&quot;
          id="org.nasdanika.vinci.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.nasdanika.codegen.feature"
+         version="0.0.0"/>
+
    <plugin
          id="org.nasdanika.doc"
          download-size="0"

@@ -26,11 +26,10 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="f65880c7-ce50-43a7-9e35-07b7758b9870" text="Edit" tooltip="EMF.Edit itemp provider adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="f34329bc-0905-4617-b1c3-ef6fcd7ed9fa" text="Gen" tooltip="Model execution/code generation adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore.gen/apidocs/index.html"/>
           </elements>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="01492fb3-9a7a-4a62-8535-5d0cc8bc9a28" text="Sirius" tooltip="Nasdanika extensions for Eclipse Sirius" activator="">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="01492fb3-9a7a-4a62-8535-5d0cc8bc9a28" text="Sirius" tooltip="Nasdanika extensions for Eclipse Sirius" activator="./${base-uri}../products/core/bundles/org.nasdanika.sirius/apidocs/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="d1743882-7b62-4d29-9d1d-ce479cbf6fca" text="Tree" tooltip="Tree representation backed by AdapterFactory" activator="./${base-uri}../products/core/bundles/org.nasdanika.sirius.tree/apidocs/index.html">
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="9537e976-1ccd-4244-bdfb-d35037f7477b" text="Edit" tooltip="EMF.Edit item provider adapters for the tree representation" activator="./${base-uri}../products/core/bundles/org.nasdanika.sirius.tree.edit/apidocs/index.html"/>
             </elements>
-            <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
           </elements>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="5ddd7084-d732-403d-a492-914c49b9987d" text="Text to speech" tooltip="Simple Text-to-Speech API leveraging Google Cloud Text-to-Speech and providing additional functionality such as caching" activator="./${base-uri}../products/core/bundles/org.nasdanika.texttospeech/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="5fd9545f-f4bd-44c0-9114-80299f14a18a" text="UI" tooltip="EEF Widgets used in Sirius properties views, e.g. an image widget which can take screenshots and shows image preview" activator="./${base-uri}../products/core/bundles/org.nasdanika.ui/apidocs/index.html"/>
@@ -69,6 +68,19 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="0b36a017-4cfa-4139-80d5-d41b3978864c" text="Edit" tooltip="EMF.Edit item provider adapters for HTML model elements" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.html.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="5a3bfa38-8b93-4a92-b808-5ae5f7b5c173" text="Gen" tooltip="Code generation adapters for HTML model elements" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.html.gen/apidocs/index.html"/>
           </elements>
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="f51e125c-06e0-49b5-b944-9dc164e345fd" text="Codegen" tooltip="EMF models and editors to visually model and then generate HTML pages and applications (web sites)">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="0f29662b-c8b7-426a-aaa1-5134efaaf285" text="Model" tooltip="Code generation model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="57747518-d517-4926-961e-848655576310" text="Edit" tooltip="EMF.Edit item provider adapters for the code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codgen.edit/apidocs/index.html"/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="34b22f14-2217-4b7c-a2c8-2649e3b25c2b" text="Gen" tooltip="Generation adapters for the code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.gen/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="14d317aa-b377-4892-9ef8-22185cd0b7e8" text="Java" tooltip="Java code generation model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.java/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="aa9a9291-10c9-4779-83bd-25e36d095de1" text="Edit" tooltip="EMF.Edit item provider adapters for the java code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codgen.java.edit/apidocs/index.html"/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="15b52391-12c3-4468-9c50-ad01ec5c8823" text="Gen" tooltip="Generation adapters for the java code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.java.gen/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="ba40f2b1-8b94-4930-9e9f-0b8bd5f26d35" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.design/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="37d1d7a8-8c04-424c-9d74-74c0ed979891" text="Editor" tooltip="Codegen model editors" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.editor/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>

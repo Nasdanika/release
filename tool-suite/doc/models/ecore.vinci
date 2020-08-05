@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Model" id="3c4c7bb9-2a5f-4523-b3b4-5fda76483d67" text="Model" icon="las la-project-diagram" activator="index.html">
-  <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Ncore" ref="../generated/ecore-doc/Ncore.vinci"/>
-  <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="HTML" ref="../generated/ecore-doc/Html.vinci"/>
-  <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Bootstrap" ref="../generated/ecore-doc/Bootstrap.vinci"/>
-  <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="App" ref="../generated/ecore-doc/App.vinci"/>
-  <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Components" ref="../generated/ecore-doc/Components.vinci"/>
-  <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="94dc94aa-8846-43c8-88e4-1dc31dc9d9fe" text="Core" activator="core.html">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Ncore" ref="../generated/ecore-doc/Ncore.vinci"/>
+    <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="110952f2-9eb4-4831-b6bc-513d58afdc6a" text="Vinci" activator="vinci.html">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="HTML" ref="../generated/ecore-doc/Html.vinci"/>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Bootstrap" ref="../generated/ecore-doc/Bootstrap.vinci"/>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="App" ref="../generated/ecore-doc/App.vinci"/>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Components" ref="../generated/ecore-doc/Components.vinci"/>
+    <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
+  </elements>
+  <elements xsi:type="org.nasdanika.vinci.app:Action" id="39d6b162-fecb-4052-b94c-9bbec22c5f4f" text="Codegen" activator="codegen.html">
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Codegen" ref="../generated/ecore-doc/Codegen.vinci"/>
+    <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Codegen Java" ref="../generated/ecore-doc/Java.vinci"/>
+    <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
+  </elements>
+  <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="2" tooltips="true"/>
   <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" location="../resources/doc/using-model-documentation.md"/>
 </org.nasdanika.vinci.app:Action>
