@@ -48,6 +48,16 @@ mounts:
             - ../products/vinci/bundles/org.nasdanika.vinci.html/apidocs/
             - ../products/vinci/bundles/org.nasdanika.vinci.html.edit/apidocs/
 
+            # Codegen
+            - ../products/codegen/bundles/org.nasdanika.codegen/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.edit/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.gen/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.java/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.java.edit/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.java.gen/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.design/apidocs/
+            - ../products/codegen/bundles/org.nasdanika.codegen.editor/apidocs/
+
     ecore-doc/:
         id: org.nasdanika.vinci.cli/ecore-doc-context-builder
         config:
@@ -66,5 +76,11 @@ mounts:
             vinci-components:
                 base: reference/model-doc/
                 ns-uri: urn:org.nasdanika.vinci.components
+            codegen:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.codegen
+            codegen-java:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.codegen-java
 
 
