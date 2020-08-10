@@ -81,6 +81,7 @@
           </elements>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="ba40f2b1-8b94-4930-9e9f-0b8bd5f26d35" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.design/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="37d1d7a8-8c04-424c-9d74-74c0ed979891" text="Editor" tooltip="Codegen model editors" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.editor/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="dfc71aa1-dd14-4e19-b3de-fd9d154a7e10" text="CLI" tooltip="Command line interface" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.cli/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
