@@ -148,6 +148,7 @@
 									<arg value="generate"/>
 									<arg value="documentation"/>
 									<arg value="ecore"/>
+									<arg value="-J"/>
 									<arg value="-p"/>
 									<arg value="${project.build.directory}\ecore-doc-model-progress.txt"/>									
 									<arg value="-o"/>
@@ -252,7 +253,7 @@
 									<arg value="-o"/>
 									<arg value="${project.build.directory}\site"/>
 									<arg value="-b"/>
-									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/"/>
+									<arg value="https://nasdanika.org/builds/${env.BRANCH}/"/>
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\models\site.vinci"/>
 								</exec>
@@ -274,7 +275,7 @@
 									<arg value="-o"/>
 									<arg value="${project.build.directory}\doc"/>
 									<arg value="-b"/>
-									<arg value="https://www.nasdanika.org/builds/${env.BRANCH}/doc/"/>
+									<arg value="https://nasdanika.org/builds/${env.BRANCH}/doc/"/>
 									<arg value="-B"/>
 									<arg value="../../../models/context-builders.yml"/>									
 									<arg value="-f"/>									
