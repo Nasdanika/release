@@ -181,6 +181,8 @@
 									<arg value="${project.build.directory}\ecore-eclipse-help-progress.txt"/>									
 									<arg value="-o"/>
 									<arg value="${project.basedir}\content\reference\ecore"/>
+									<arg value="-B"/>
+									<arg value="../../../models/context-builders.yml"/>									
 									<arg value="-f"/>									
 									<arg value="${project.basedir}\models\ecore.vinci"/>
 								</exec>																
