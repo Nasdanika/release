@@ -21,6 +21,10 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="34788077-31c2-44df-a189-1fc9d3fdde89" text="Edit" tooltip="EMF Edit extensions used by Nasdanika models." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="056d023b-8523-4abb-a9e8-c9f37fb3c642" text="Presentation" tooltip="Nasdanika Sirius editor and Tree dialect." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.presentation/apidocs/index.html"/>
           </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5b4460dd-5770-47f7-ada5-5587951afffb" text="Exec" tooltip="A library of execution paritipants" activator="./${base-uri}../products/core/bundles/org.nasdanika.exec/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="10278c8a-93d6-451b-bede-25dfa5ab6fd8" text="Edit" tooltip="EMF Edit extensions used by Nasdanika models." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.edit/apidocs/index.html"/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="866cdf4a-e55f-40e3-8962-e08474ce8ead" text="Presentation" tooltip="Nasdanika Sirius editor and Tree dialect." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.presentation/apidocs/index.html"/>
+          </elements>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="1023a763-2aba-4c73-8428-e86882f2135d" text="Help" tooltip="Nasdanika primary TOC and Markdown content producer" activator="./${base-uri}../products/core/bundles/org.nasdanika.help/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="829e3253-adf4-4c20-b05d-0f95a8e04663" text="Ncore" tooltip="Nasdanika core EMF model" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore/apidocs/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="f65880c7-ce50-43a7-9e35-07b7758b9870" text="Edit" tooltip="EMF.Edit itemp provider adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore.edit/apidocs/index.html"/>
