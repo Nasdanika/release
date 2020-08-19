@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Model" id="3c4c7bb9-2a5f-4523-b3b4-5fda76483d67" text="Model" icon="las la-project-diagram" activator="index.html">
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="Model" id="3c4c7bb9-2a5f-4523-b3b4-5fda76483d67" text="Model" icon="las la-project-diagram" tooltip="Nasdanika Ecore models documentation" activator="index.html">
   <elements xsi:type="org.nasdanika.vinci.app:Action" id="94dc94aa-8846-43c8-88e4-1dc31dc9d9fe" text="Core" activator="core.html">
     <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Ncore" ref="../generated/ecore-doc/Ncore.vinci"/>
     <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
@@ -16,6 +16,6 @@
     <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Codegen Java" ref="../generated/ecore-doc/Java.vinci"/>
     <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="1" tooltips="true"/>
   </elements>
-  <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="2" tooltips="true"/>
+  <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="10" tooltips="true"/>
   <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" location="../resources/doc/using-model-documentation.md"/>
 </org.nasdanika.vinci.app:Action>

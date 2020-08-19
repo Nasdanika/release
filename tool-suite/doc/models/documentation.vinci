@@ -6,8 +6,109 @@
       <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Reference" id="27fa8398-10d5-4f4f-8c00-a3747880917d" text="Reference" icon="fas fa-book" activator="reference/index.html">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" id="1b955ef3-e385-4d0d-ae38-81b1e1b1db8d" text="Knowledge Base" icon="las la-university" tooltip="Developer resources organized by product and module (bundle/jar)" activator="knowledge-base/index.html">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" id="8fc3cfa3-c886-4e47-addf-21f2d4bcc85b" text="Core" activator="core/index.html">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="4ed73766-604d-40a3-bd91-1605f91ebe13" text="Common" activator="common/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="90ea8f74-19b9-46da-8e39-14e95ed79216" text="Execution Model" activator="execution-model.html">
+              <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.common/doc/execution-model.md"/>
+            </elements>
+            <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5514d2ec-5b49-4e07-8967-13b18730e74b" text="Exec" activator="exec/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="33e75708-d83b-47f5-95e9-6166f0980d6c" text="General" activator="general/index.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="c05e9709-6af2-4f4d-988e-ad56acc5fb6f" text="Loader" activator="loader.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/loader.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="14eedcf4-b4e2-422e-a163-31206fa7866a" text="Configurator" activator="configurator.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/configurator.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="9a6b6658-01f2-40c2-9563-cfb23af08902" text="Iterator" activator="iterator.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/iterator.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="263d8445-2ec6-4b53-8305-3e44e0ba1837" text="Mapper" activator="mapper.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/mapper.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="b950c896-a082-47b7-85bd-aab5468a5cf0" text="Reference" activator="reference.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/reference.md"/>
+              </elements>
+              <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/index.md"/>
+              <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
+            </elements>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="2aff2054-7ca3-4a87-8443-d08b2ab088d2" text="Content" activator="content/index.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="e574e39b-fcf2-4472-9f58-6c3eaf45311a" text="FreeMarker" activator="free-marker.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/free-marker.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="dea59ce7-0c9f-49ba-bbf8-e1c78e347ad8" text="HTTP Call" activator="http-call.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/http-call.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="3d21459a-5309-42af-9cf5-5481fce19625" text="Interpolator" activator="interpolator.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/interpolator.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="3fda903d-25e7-489b-b661-0884c444b04e" text="Mustache" activator="mustache.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/mustache.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="8052e77b-7e8b-44ef-83c3-93b0ad789f7a" text="Resource" activator="resource.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/resource.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="e4a607d4-9431-4df5-8682-f87495b765c8" text="Zip Archive" activator="zip-archive.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/zip-archive.md"/>
+              </elements>
+              <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/index.md"/>
+              <content xsi:type="org.nasdanika.vinci.components:ListOfContents" header="Components" depth="6" tooltips="true"/>
+            </elements>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="75598bf7-5450-46d6-b0cc-3a9cce38dc8d" text="Resources" activator="resources/index.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="e89bffbf-5248-4df7-9250-d1fc9f19fdee" text="Container" activator="container.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/container.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="f4fbe551-7ed2-495f-80c7-098fc13f2a90" text="File" activator="file.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/file.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="d3b553fa-1713-47af-8a3a-b98a1b9ba1b6" text="Zip Resource Collection" activator="zip-resource-collection.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/zip-resource-collection.md"/>
+              </elements>
+              <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/index.md"/>
+              <content xsi:type="org.nasdanika.vinci.components:ListOfContents" header="Components" depth="6" tooltips="true"/>
+            </elements>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="7b3318c4-0ec3-4e5f-a4e8-7f226d03b98f" text="Java" activator="java/index.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="2659e3c9-06e7-49b6-acbf-cd270a9eacf0" text="Annotation" activator="annotation.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/annotation.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="da18ccec-81cd-4fb0-a320-3e1af4edd133" text="Compilation Unit" activator="compilation-unit.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/compilation-unit.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="1e3af061-e81a-49b1-aa83-9d76db5b808e" text="Constructor" activator="constructor.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/constructor.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="7840f15a-33d9-4f66-a87b-b9ae703c7ae8" text="Enum" activator="enum.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/enum.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="53ccf78e-a3dc-48ab-a47c-5317434408ce" text="Field" activator="field.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/field.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="a752b723-2cd7-48fd-a722-4c28ddb7d9c9" text="Interface" activator="interface.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/interface.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="7b593eaa-5e8e-4e15-88dd-7a6fd87a04bd" text="Method" activator="method.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/method.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="90f3d877-af11-4ece-bf9a-c9be98e2a8a1" text="Package" activator="package.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/package.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="e077e9b6-749c-490a-9836-dfbb46a739fb" text="Source folder" activator="source-folder.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/source-folder.md"/>
+              </elements>
+              <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/index.md"/>
+              <content xsi:type="org.nasdanika.vinci.components:ListOfContents" header="Components" depth="6" tooltips="true"/>
+            </elements>
+            <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/index.md"/>
+            <content xsi:type="org.nasdanika.vinci.components:ListOfContents" title="" header="Components" depth="6" tooltips="true"/>
+          </elements>
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
+        </elements>
+        <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
+      </elements>
       <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Model" ref="ecore.vinci" path="model-doc"/>
-      <elements xsi:type="org.nasdanika.vinci.app:Action" title="CLI" id="b2ed75c8-38fd-4223-b96e-6fd6ed1642be" text="Command Line Interface" icon="las la-terminal" activator="cli/index.html">
+      <elements xsi:type="org.nasdanika.vinci.app:Action" title="CLI" id="b2ed75c8-38fd-4223-b96e-6fd6ed1642be" text="Command Line Interface" icon="las la-terminal" tooltip="" activator="cli/index.html">
         <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Generated model" ref="../generated/cli.vinci" path=""/>
         <elements xsi:type="org.nasdanika.vinci.app:ActionLink" title="Context builders" ref="../generated/context-builders.vinci" path="context-builders"/>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
@@ -21,10 +122,7 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="34788077-31c2-44df-a189-1fc9d3fdde89" text="Edit" tooltip="EMF Edit extensions used by Nasdanika models." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="056d023b-8523-4abb-a9e8-c9f37fb3c642" text="Presentation" tooltip="Nasdanika Sirius editor and Tree dialect." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.presentation/apidocs/index.html"/>
           </elements>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5b4460dd-5770-47f7-ada5-5587951afffb" text="Exec" tooltip="A library of execution paritipants" activator="./${base-uri}../products/core/bundles/org.nasdanika.exec/apidocs/index.html">
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="10278c8a-93d6-451b-bede-25dfa5ab6fd8" text="Edit" tooltip="EMF Edit extensions used by Nasdanika models." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.edit/apidocs/index.html"/>
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="866cdf4a-e55f-40e3-8962-e08474ce8ead" text="Presentation" tooltip="Nasdanika Sirius editor and Tree dialect." activator="${base-uri}../products/core/bundles/org.nasdanika.emf.presentation/apidocs/index.html"/>
-          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="5b4460dd-5770-47f7-ada5-5587951afffb" text="Exec" tooltip="A library of execution paritipants" activator="./${base-uri}../products/core/bundles/org.nasdanika.exec/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="1023a763-2aba-4c73-8428-e86882f2135d" text="Help" tooltip="Nasdanika primary TOC and Markdown content producer" activator="./${base-uri}../products/core/bundles/org.nasdanika.help/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="829e3253-adf4-4c20-b05d-0f95a8e04663" text="Ncore" tooltip="Nasdanika core EMF model" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore/apidocs/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="f65880c7-ce50-43a7-9e35-07b7758b9870" text="Edit" tooltip="EMF.Edit itemp provider adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore.edit/apidocs/index.html"/>
@@ -90,13 +188,13 @@
         </elements>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
       </elements>
-      <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
+      <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="10" tooltips="true"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" id="94f0a503-41a4-42a5-a8a4-d0f3f6c052e9" text="Release Notes" icon="las la-history" activator="release-notes/index.html">
       <elements xsi:type="org.nasdanika.vinci.app:Action" id="c64ba3c2-aea2-44e2-bc26-1db7f480e34e" text="2020-09" activator="2020-09.html" markdownContent="* [Context builders](${base-uri}reference/cli/context-builders/index.html)&#xD;&#xA;    * [JavaDoc context builder](${base-uri}reference/cli/context-builders/org.nasdanika.vinci.cli/javadoc-context-builder.html)&#xD;&#xA;    * [Ecore documentation context builder](${base-uri}reference/cli/context-builders/org.nasdanika.vinci.cli/ecore-doc-context-builder.html)&#xD;&#xA;    * [CLI command to generate context builders documentation as a Vinci model](${base-uri}reference/cli/nsd/vinci/generate/documentation/context-builders.html)&#xD;&#xA;* Ecore documentation provides instance class names and links to JavaDoc. [Example](${base-uri}reference/model-doc/75726e3a6f72672e6e617364616e696b612e76696e63692e617070/ActionBase.html)&#xD;&#xA;* CLI command hierarchy includes [generate documentation](${base-uri}reference/cli/nsd/vinci/generate/documentation.html) command group. The group contains ``cli``, ``context-builders`` and ``ecore`` sub-commands.&#xD;&#xA;* [Java API documentation](${base-uri}reference/javadoc/index.html)&#xD;&#xA;* Support of alternative text in ${ecore-doc/vinci-app/ActionMapping}&#xD;&#xA;"/>
       <content xsi:type="org.nasdanika.vinci.components:ListOfContents" role="Navigation"/>
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" id="de63cd9d-f6a5-48f1-b068-e6c64740fe13" text="Resources" markdownContent="* [JavaDoc 1.8](https://docs.oracle.com/javase/8/docs/api/)&#xD;&#xA;* [EMF](https://download.eclipse.org/modeling/emf/emf/javadoc/2.9.0/)&#xD;&#xA;* [Vogella Tutorials](https://www.vogella.com/tutorials/)&#xD;&#xA;* [picocli](https://picocli.info/)"/>
-    <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
+    <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="10" tooltips="true"/>
   </elements>
 </org.nasdanika.vinci.app:Action>
