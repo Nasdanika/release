@@ -28,7 +28,10 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="9a6b6658-01f2-40c2-9563-cfb23af08902" text="Iterator" activator="iterator.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/iterator.md"/>
               </elements>
-              <elements xsi:type="org.nasdanika.vinci.app:Action" id="263d8445-2ec6-4b53-8305-3e44e0ba1837" text="Mapper" activator="mapper.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="263d8445-2ec6-4b53-8305-3e44e0ba1837" text="(Map)" activator="map-cast.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/map-cast.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="0d9d849c-d401-4398-a1f0-851683006a38" text="Mapper" activator="mapper.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/mapper.md"/>
               </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="b950c896-a082-47b7-85bd-aab5468a5cf0" text="Reference" activator="reference.html">
