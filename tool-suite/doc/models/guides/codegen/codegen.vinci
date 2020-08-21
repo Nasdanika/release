@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" xmlns:org.nasdanika.vinci.components="urn:org.nasdanika.vinci.components" title="" id="c814e9d8-d269-4a6a-877e-b61dc221935d" text="Codegen" activator="codegen/index.html">
+  <elements xsi:type="org.nasdanika.vinci.app:ActionReference">
+    <action xsi:type="org.nasdanika.vinci.app:Action" href="get-started.vinci#2d7b64cf-0cf6-4bc1-bdef-4b5c5c4f70d4"/>
+  </elements>
+  <content xsi:type="org.nasdanika.vinci.components:ListOfContents" tooltips="true"/>
+</org.nasdanika.vinci.app:Action>
