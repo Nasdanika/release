@@ -90,7 +90,7 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="2659e3c9-06e7-49b6-acbf-cd270a9eacf0" text="Annotation" activator="annotation.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/annotation.md"/>
               </elements>
-              <elements xsi:type="org.nasdanika.vinci.app:Action" id="95617ba7-f2cc-4dfa-b2bd-a80ca10ca498" text="Constructor" activator="constructor.html">
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="95617ba7-f2cc-4dfa-b2bd-a80ca10ca498" text="Class" activator="class.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/java/class.md"/>
               </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="da18ccec-81cd-4fb0-a320-3e1af4edd133" text="Compilation Unit" activator="compilation-unit.html">
