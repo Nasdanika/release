@@ -10,7 +10,7 @@
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Reference" id="27fa8398-10d5-4f4f-8c00-a3747880917d" text="Reference" icon="fas fa-book" activator="reference/index.html">
       <elements xsi:type="org.nasdanika.vinci.app:Action" id="1b955ef3-e385-4d0d-ae38-81b1e1b1db8d" text="Knowledge Base" icon="las la-university" tooltip="Developer resources organized by product and module (bundle/jar)" activator="knowledge-base/index.html">
-        <elements xsi:type="org.nasdanika.vinci.app:Action" id="8fc3cfa3-c886-4e47-addf-21f2d4bcc85b" text="Core" activator="core/index.html">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" id="8fc3cfa3-c886-4e47-addf-21f2d4bcc85b" text="Core" activator="core/index.html" markdownContent="### Resources&#xD;&#xA;&#xD;&#xA;* [Sources](${base-uri}../products/core/source.zip)">
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="4ed73766-604d-40a3-bd91-1605f91ebe13" text="Common" activator="common/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="90ea8f74-19b9-46da-8e39-14e95ed79216" text="Execution Model" activator="execution-model.html">
               <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.common/doc/execution-model.md"/>
@@ -123,7 +123,7 @@
             <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/index.md"/>
             <content xsi:type="org.nasdanika.vinci.components:ListOfContents" title="" header="Components" depth="6" tooltips="true"/>
           </elements>
-          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" header="Contents" depth="6" tooltips="true"/>
         </elements>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
       </elements>
