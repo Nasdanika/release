@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="" id="2d7b64cf-0cf6-4bc1-bdef-4b5c5c4f70d4" text="Get Started" activator="nasdanika-codegen-get-started.pdf" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/default/primary.vinci"/>
+<org.nasdanika.vinci.app:Action xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.nasdanika.vinci.app="urn:org.nasdanika.vinci.app" title="" id="2d7b64cf-0cf6-4bc1-bdef-4b5c5c4f70d4" text="Get Started" activator="./nasdanika-codegen-get-started.pdf" pageTemplate="platform:/plugin/org.nasdanika.vinci.templates/pages/default/primary.vinci"/>
