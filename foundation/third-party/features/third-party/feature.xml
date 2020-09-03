@@ -2,7 +2,7 @@
 <feature
       id="org.nasdanika.third-party.feature"
       label="Nasdanika Third Party Bundles"
-      version="2020.09.00.qualifier"
+      version="2020.12.00.qualifier"
       provider-name="Nasdanika LLC">
 
    <description>

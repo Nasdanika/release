@@ -4,11 +4,11 @@
 	
 	<artifactId>org.nasdanika.tools.doc-gen</artifactId>
 	<groupId>org.nasdanika.tools</groupId>
-	<version>2020.09.00-SNAPSHOT</version>
+	<version>2020.12.00-SNAPSHOT</version>
 	
 	<properties>
-		<windows-binary-name>nasdanika-tool-suite-2020-09-win32-x86_64.zip</windows-binary-name>
-		<windows-jdk-binary-name>nasdanika-tool-suite-2020-09-openjdk-8-win32-x86_64.zip</windows-jdk-binary-name>
+		<windows-binary-name>nasdanika-tool-suite-2020-12-win32-x86_64.zip</windows-binary-name>
+		<windows-jdk-binary-name>nasdanika-tool-suite-2020-12-openjdk-8-win32-x86_64.zip</windows-jdk-binary-name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 		
@@ -28,7 +28,7 @@
 						<configuration>
 							<target>
 								<get 
-									src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-09-win32-x86_64.zip" 
+									src="https://www.nasdanika.org/builds/${env.BRANCH}/packages/nasdanika-developer-tools-2020-12-win32-x86_64.zip" 
 									dest="${project.build.directory}/eclipse.zip"/>
 								
 								<unzip src="${project.build.directory}/eclipse.zip" dest="${project.build.directory}/cli"/>

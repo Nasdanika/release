@@ -2,7 +2,7 @@
 <feature
       id="org.nasdanika.developer.tools.feature"
       label="Nasdanika Developer Tools"
-      version="2020.09.00.qualifier">
+      version="2020.12.00.qualifier">
 
    <description>
       Third-party tools for Nasdanika developers.

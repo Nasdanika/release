@@ -6,7 +6,7 @@
     <groupId>org.nasdanika.foundation</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>2020.09</version>
+    <version>2020.12</version>
     
 	<pluginRepositories>
 		<pluginRepository>
@@ -27,8 +27,8 @@
 
 	<properties>
 		<tycho-version>1.7.0</tycho-version>
-		<eclipse-repo>https://download.eclipse.org/releases/2020-03</eclipse-repo>
-		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200224183213/repository</orbit-repo>
+		<eclipse-repo>https://download.eclipse.org/releases/2020-06</eclipse-repo>
+		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository</orbit-repo>
 	</properties>
 
 	<repositories>
