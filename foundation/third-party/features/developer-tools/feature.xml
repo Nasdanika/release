@@ -57,10 +57,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.mylyn.hudson"
-         version="0.0.0"/>
-
-   <includes
          id="org.eclipse.mylyn.github.feature"
          version="0.0.0"/>
 
