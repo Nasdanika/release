@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.eclipse.egit.core.GitProvider">
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,cli"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,model"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,cli"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,design"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,edit"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,editor"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,feature"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,gen"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,java"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,java.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,java.gen"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,repository"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,tests"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,tests.feature"/>
+<project reference="1.0,https://github.com/Nasdanika/codegen.git,develop,tests.models"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,common"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,feature"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,repository"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,tests"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,eclipse"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,emf"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,emf.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,emf.presentation"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,exec"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,help"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,html"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,app"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,bootstrap"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,echarts"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,ecore"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,emf"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,feature"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,fontawesome"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,jstree"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,knockout"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,repository"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,tests/tests"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,tests/feature"/>
+<project reference="1.0,https://github.com/Nasdanika/html.git,develop,tests/repository"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,http"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,ncore"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,ncore.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,ncore.gen"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,repo"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,sirius"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,sirius.tree"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,sirius.tree.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,texttospeech"/>
+<project reference="1.0,https://github.com/Nasdanika/core.git,develop,ui"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,app"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,app.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,app.gen"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,bootstrap"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,bootstrap.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,bootstrap.gen"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,cli"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,components"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,components.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,components.gen"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,demo"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,design"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,ecore"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,editor"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,emf"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,feature"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,help"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,html"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,html.edit"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,html.gen"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,repository"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,templates"/>
+<project reference="1.0,https://github.com/Nasdanika/vinci.git,develop,tests"/>
+</provider>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1596465207952_7" label="Codegen" name="Codegen">
+<item elementID="=org.nasdanika.codegen.editor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.tests.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.design" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.java.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.cli" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.tests.models" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.codegen.feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.codegen.repository" type="4"/>
+<item elementID="=org.nasdanika.codegen.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.codegen.java.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1593794449102_3" label="Core" name="Core">
+<item elementID="=org.nasdanika.core.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.exec" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.common" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.sirius.tree" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.eclipse" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.http" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.ncore" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.emf.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.texttospeech" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.emf.presentation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.core.repository" type="4"/>
+<item elementID="=org.nasdanika.help" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.sirius.tree.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.sirius" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.core.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.ncore.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.cli" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.emf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.repository" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.ncore.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1593794465165_5" label="HTML" name="HTML">
+<item elementID="=org.nasdanika.html.ecore" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.app" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.echarts" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.bootstrap" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.knockout" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.jstree" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.html.tests.repository" type="4"/>
+<item elementID="=org.nasdanika.html.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.emf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.html.repository" type="4"/>
+<item elementID="=org.nasdanika.html.tests.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.html.fontawesome" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1593794519439_6" label="Vinci" name="Vinci">
+<item elementID="=org.nasdanika.vinci.editor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.components.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.vinci.feature" type="4"/>
+<item elementID="=org.nasdanika.vinci.bootstrap" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.templates" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.app" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.app.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.help" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.demo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.html" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.design" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.app.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.components" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.components.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.html.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.nasdanika.vinci.repository" type="4"/>
+<item elementID="=org.nasdanika.vinci.bootstrap.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.emf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.cli" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.bootstrap.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.ecore" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.nasdanika.vinci.html.gen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+</psf>
