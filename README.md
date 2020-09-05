@@ -21,7 +21,7 @@ Nasdanika release is built from the following repositories/components:
     * site - Nasdanika site model referencing product site models (federated). 
     
 All Build jobs for the release participants are parameterized. 
-The ``release`` pipeline build is parameterized with the branch name, e.g. ``develop`` or ``release/2020-03``, the default value is ``develop``. 
+The ``release`` pipeline build is parameterized with the branch name, e.g. ``develop`` or ``release/2020-06``, the default value is ``develop``. 
 This the branch name is used for the build deployment directory. 
 Builds are deployed to ``https://www.nasdanika.org/builds/<release branch>``.
 ``https://www.nasdanika.org/`` redirects to ``https://www.nasdanika.org/builds/master``.
@@ -137,8 +137,8 @@ Once all the fixes for a service release are implemented the release branches ar
 
 ### Release schedule
 
-Nasdanika releases use ``YYYY-MM`` format, e.g. ``2020-03``, components may use semantic versioning. 
-``-SRX`` suffix is used for service releases after the release date, e.g. ``2020-03-SR1``. 
+Nasdanika releases use ``YYYY-MM`` format, e.g. ``2020-06``, components may use semantic versioning. 
+``-SRX`` suffix is used for service releases after the release date, e.g. ``2020-06-SR1``. 
 New releases are produced quarterly - 03, 06, 09, and 12.
 Pre-release phase starts a month before the release date. Respectively, the development phase starts 4 months before the release date.
 
