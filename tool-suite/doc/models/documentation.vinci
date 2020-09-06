@@ -148,6 +148,9 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="f65880c7-ce50-43a7-9e35-07b7758b9870" text="Edit" tooltip="EMF.Edit itemp provider adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="f34329bc-0905-4617-b1c3-ef6fcd7ed9fa" text="Gen" tooltip="Model execution/code generation adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.ncore.gen/apidocs/index.html"/>
           </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="14a717eb-6b1b-4388-93b4-8678c028a109" text="Party" tooltip="Nasdanika core EMF model" activator="./${base-uri}../products/core/bundles/org.nasdanika.party/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="261ea556-4da5-4ffb-a1dd-cf4b8494fff9" text="Edit" tooltip="EMF.Edit itemp provider adapters for Ncore" activator="./${base-uri}../products/core/bundles/org.nasdanika.party.edit/apidocs/index.html"/>
+          </elements>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="01492fb3-9a7a-4a62-8535-5d0cc8bc9a28" text="Sirius" tooltip="Nasdanika extensions for Eclipse Sirius" activator="./${base-uri}../products/core/bundles/org.nasdanika.sirius/apidocs/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="d1743882-7b62-4d29-9d1d-ce479cbf6fca" text="Tree" tooltip="Tree representation backed by AdapterFactory" activator="./${base-uri}../products/core/bundles/org.nasdanika.sirius.tree/apidocs/index.html">
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="9537e976-1ccd-4244-bdfb-d35037f7477b" text="Edit" tooltip="EMF.Edit item provider adapters for the tree representation" activator="./${base-uri}../products/core/bundles/org.nasdanika.sirius.tree.edit/apidocs/index.html"/>

@@ -154,6 +154,7 @@
 									<arg value="-o"/>
 									<arg value="${project.basedir}\generated\ecore-doc"/>
 									<arg value="urn:org.nasdanika.ncore"/>
+									<arg value="urn:org.nasdanika.party"/>
 									<arg value="urn:org.nasdanika.vinci.html"/>
 									<arg value="urn:org.nasdanika.vinci.bootstrap"/>
 									<arg value="urn:org.nasdanika.vinci.app"/>
