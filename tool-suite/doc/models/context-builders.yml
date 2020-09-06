@@ -18,6 +18,8 @@ mounts:
             - ../products/core/bundles/org.nasdanika.help/apidocs/
             - ../products/core/bundles/org.nasdanika.ncore/apidocs/
             - ../products/core/bundles/org.nasdanika.ncore.edit/apidocs/
+            - ../products/core/bundles/org.nasdanika.party/apidocs/
+            - ../products/core/bundles/org.nasdanika.party.edit/apidocs/
             - ../products/core/bundles/org.nasdanika.sirius.tree/apidocs/
             - ../products/core/bundles/org.nasdanika.sirius.tree.edit/apidocs/
             - ../products/core/bundles/org.nasdanika.texttospeech/apidocs/
@@ -65,6 +67,9 @@ mounts:
             ncore:
                 base: reference/model-doc/
                 ns-uri: urn:org.nasdanika.ncore
+            party:
+                base: reference/model-doc/
+                ns-uri: urn:org.nasdanika.party
             vinci-html:
                 base: reference/model-doc/
                 ns-uri: urn:org.nasdanika.vinci.html
