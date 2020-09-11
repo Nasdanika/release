@@ -61,6 +61,9 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="3fda903d-25e7-489b-b661-0884c444b04e" text="Mustache" activator="mustache.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/mustache.md"/>
               </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="a62b090d-ee32-4048-8d38-028ce6e1012b" text="Replace" activator="replace.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/replace.md"/>
+              </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="8052e77b-7e8b-44ef-83c3-93b0ad789f7a" text="Resource" activator="resource.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/resource.md"/>
               </elements>
@@ -76,6 +79,9 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="75598bf7-5450-46d6-b0cc-3a9cce38dc8d" text="Resources" activator="resources/index.html">
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="e89bffbf-5248-4df7-9250-d1fc9f19fdee" text="Container" activator="container.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/container.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="da777c7e-af41-4f59-acdd-4bcbb1fa21f4" text="Git" activator="git.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/git.md"/>
               </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="f4fbe551-7ed2-495f-80c7-098fc13f2a90" text="File" activator="file.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/resources/file.md"/>
