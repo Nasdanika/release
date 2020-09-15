@@ -21,34 +21,34 @@
 	<repositories>
 		<repository>
 			<id>foundation</id>
-			<url>https://www.nasdanika.org/builds/${env.BRANCH}/repositories/composite</url>
+			<url>https://nasdanika.org/builds/${env.BRANCH}/repositories/composite</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>core</id>
-			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/core/repository</url>
+			<url>https://nasdanika.org/builds/${env.BRANCH}/products/core/repository</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>html</id>
-			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/html/repository</url>
+			<url>https://nasdanika.org/builds/${env.BRANCH}/products/html/repository</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>vinci</id>
-			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/vinci/repository</url>
+			<url>https://nasdanika.org/builds/${env.BRANCH}/products/vinci/repository</url>
 			<layout>p2</layout>
 		</repository>
 		<!--
 		<repository>
 			<id>rigel</id>
-			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/rigel/repository</url>
+			<url>https://nasdanika.org/builds/${env.BRANCH}/products/rigel/repository</url>
 			<layout>p2</layout>
 		</repository>
 		-->
 		<repository>
 			<id>codgen</id>
-			<url>https://www.nasdanika.org/builds/${env.BRANCH}/products/codegen/repository</url>
+			<url>https://nasdanika.org/builds/${env.BRANCH}/products/codegen/repository</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
