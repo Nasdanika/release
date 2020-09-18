@@ -293,11 +293,19 @@ version(s), and exceptions or additional permissions here}.&quot;
    </license>
 
    <includes
-         id="org.nasdanika.vinci.feature"
+         id="org.nasdanika.core.feature"
          version="0.0.0"/>
 
    <includes
          id="org.nasdanika.codegen.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.nasdanika.rigel.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.nasdanika.vinci.feature"
          version="0.0.0"/>
 
    <plugin

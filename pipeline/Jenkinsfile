@@ -34,11 +34,11 @@ pipeline {
 				build job: 'codegen', parameters: [string(name: 'RELEASE', value: params.BRANCH), string(name: 'BRANCH', value: params.BRANCH)]
 			}
 		}
-//		stage('Rigel') {
-//			steps {
-//				build job: 'rigel', parameters: [string(name: 'RELEASE', value: params.BRANCH), string(name: 'BRANCH', value: params.BRANCH)]
-//			}
-//		}
+		stage('Rigel') {
+			steps {
+				build job: 'rigel', parameters: [string(name: 'RELEASE', value: params.BRANCH), string(name: 'BRANCH', value: params.BRANCH)]
+			}
+		}
 		stage('Tool Suite') {
 			steps {
 			        build job: 'tool-suite', parameters: [string(name: 'BRANCH', value: params.BRANCH)]

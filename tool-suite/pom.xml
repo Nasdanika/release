@@ -39,13 +39,11 @@
 			<url>https://nasdanika.org/builds/${env.BRANCH}/products/vinci/repository</url>
 			<layout>p2</layout>
 		</repository>
-		<!--
 		<repository>
 			<id>rigel</id>
 			<url>https://nasdanika.org/builds/${env.BRANCH}/products/rigel/repository</url>
 			<layout>p2</layout>
 		</repository>
-		-->
 		<repository>
 			<id>codgen</id>
 			<url>https://nasdanika.org/builds/${env.BRANCH}/products/codegen/repository</url>
@@ -127,7 +125,7 @@
 	<name>Nasdanika Tool Suite Parent</name>
 	<organization>
 		<name>Nasdanika LLC</name>
-		<url>http://www.nasdanika.org</url>
+		<url>https://www.nasdanika.org</url>
 	</organization>
 	<scm>
 		<url>https://github.com/Nasdanika/release/tool-suite</url>

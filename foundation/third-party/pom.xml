@@ -12,7 +12,7 @@
 		<pluginRepository>
 			<id>plugins-snapshot-local</id>
 			<name>plugins-snapshot-local</name>
-			<url>http://repo.spring.io/plugins-snapshot-local</url>
+			<url>https://repo.spring.io/plugins-snapshot-local</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>

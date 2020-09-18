@@ -162,6 +162,7 @@
 									<arg value="urn:org.nasdanika.vinci.components"/>
 									<arg value="urn:org.nasdanika.codegen"/>
 									<arg value="urn:org.nasdanika.codegen.java"/>
+									<arg value="urn:org.nasdanika.rigel"/>
 								</exec>
 								
 								<echo message="Ecore documentation Eclipse help"/>

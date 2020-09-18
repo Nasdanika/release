@@ -49,7 +49,7 @@
 							<sites>
 								<param>${eclipse-repo}</param>
 								<param>${orbit-repo}</param>
-								<param>http://download.eclipse.org/nebula/releases/2.4.2</param>
+								<param>https://download.eclipse.org/nebula/releases/2.4.2</param>
 								<param>../third-party</param>
 								<param>../maven-osgi</param>
 							</sites>

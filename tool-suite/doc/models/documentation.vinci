@@ -10,7 +10,7 @@
     </elements>
     <elements xsi:type="org.nasdanika.vinci.app:Action" title="Reference" id="27fa8398-10d5-4f4f-8c00-a3747880917d" text="Reference" icon="fas fa-book" activator="reference/index.html">
       <elements xsi:type="org.nasdanika.vinci.app:Action" id="1b955ef3-e385-4d0d-ae38-81b1e1b1db8d" text="Knowledge Base" icon="las la-university" tooltip="Developer resources organized by product and module (bundle/jar)" activator="knowledge-base/index.html">
-        <elements xsi:type="org.nasdanika.vinci.app:Action" id="8fc3cfa3-c886-4e47-addf-21f2d4bcc85b" text="Core" activator="core/index.html" markdownContent="### Resources&#xD;&#xA;&#xD;&#xA;* [Sources](${base-uri}../products/core/source.zip)">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" id="8fc3cfa3-c886-4e47-addf-21f2d4bcc85b" text="Core" activator="core/index.html" markdownContent="### Resources&#xD;&#xA;&#xD;&#xA;* [Sources](${base-uri}../products/core/nasdanika-core-source.zip)">
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="4ed73766-604d-40a3-bd91-1605f91ebe13" text="Common" activator="common/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="90ea8f74-19b9-46da-8e39-14e95ed79216" text="Execution Model" activator="execution-model.html">
               <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.common/doc/execution-model.md"/>
@@ -140,7 +140,21 @@
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
       </elements>
       <elements xsi:type="org.nasdanika.vinci.app:Action" title="Javadoc" id="75fca0f0-c436-49a7-8c67-0779ef251895" text="Javadoc" icon="lab la-java" activator="javadoc/index.html">
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="b281cd5a-2ed4-45d0-8144-9cff47419236" text="Core" tooltip="Bundles providing reusalble functionality and extension points">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="f51e125c-06e0-49b5-b944-9dc164e345fd" text="Codegen" tooltip="EMF models and editors to visually model and then generate HTML pages and applications (web sites)" activator="codegen.html">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="0f29662b-c8b7-426a-aaa1-5134efaaf285" text="Model" tooltip="Code generation model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="57747518-d517-4926-961e-848655576310" text="Edit" tooltip="EMF.Edit item provider adapters for the code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codgen.edit/apidocs/index.html"/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="34b22f14-2217-4b7c-a2c8-2649e3b25c2b" text="Gen" tooltip="Generation adapters for the code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.gen/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="14d317aa-b377-4892-9ef8-22185cd0b7e8" text="Java" tooltip="Java code generation model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.java/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="aa9a9291-10c9-4779-83bd-25e36d095de1" text="Edit" tooltip="EMF.Edit item provider adapters for the java code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codgen.java.edit/apidocs/index.html"/>
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="15b52391-12c3-4468-9c50-ad01ec5c8823" text="Gen" tooltip="Generation adapters for the java code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.java.gen/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="ba40f2b1-8b94-4930-9e9f-0b8bd5f26d35" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.design/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="37d1d7a8-8c04-424c-9d74-74c0ed979891" text="Editor" tooltip="Codegen model editors" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.editor/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="dfc71aa1-dd14-4e19-b3de-fd9d154a7e10" text="CLI" tooltip="Command line interface" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.cli/apidocs/index.html"/>
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="b281cd5a-2ed4-45d0-8144-9cff47419236" text="Core" tooltip="Bundles providing reusalble functionality and extension points" activator="core.html">
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="aa966962-78a4-480d-8659-571d5500ea46" text="CLI" tooltip="Nasdanika Command Line Interface built on top of Picocli. Provdes base classes for commands and a command extension point." activator="./${base-uri}../products/core/bundles/org.nasdanika.cli/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="70d321c3-7b92-4012-84e8-bc2f88eef50e" text="Common" tooltip="Common functionality - Context, Progress Monitor, Execution Participants, Resources and resource containers" activator="./${base-uri}../products/core/bundles/org.nasdanika.common/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="5ada25b5-0a60-4d24-af45-5878c6338ce3" text="Eclipse" tooltip="Progress monitor and resource adapters" activator="./${base-uri}../products/core/bundles/org.nasdanika.eclipse/apidocs/index.html"/>
@@ -169,7 +183,7 @@
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="5fd9545f-f4bd-44c0-9114-80299f14a18a" text="UI" tooltip="EEF Widgets used in Sirius properties views, e.g. an image widget which can take screenshots and shows image preview" activator="./${base-uri}../products/core/bundles/org.nasdanika.ui/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="0868aecf-50a2-405d-b36a-a74a5bb5c3a2" text="HTML" tooltip="Java API (bindings) for several HTML technologies and an application framework">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="0868aecf-50a2-405d-b36a-a74a5bb5c3a2" text="HTML" tooltip="Java API (bindings) for several HTML technologies and an application framework" activator="html.html">
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="7cdf302f-cf0e-44c8-a457-9ae601a7c758" text="App" tooltip="Application framework - actions, view parts, view generator" activator="${base-uri}../products/html/bundles/org.nasdanika.html.app/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="d879ca73-bdb9-4d4c-b18a-31f7686cd64f" text="Bootstrap" tooltip="Java API for building Bootstrap HTML" activator="${base-uri}../products/html/bundles/org.nasdanika.html.bootstrap/apidocs/index.html"/>
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="d9647ed9-f637-41ef-a870-a7c78a68da18" text="ECharts" tooltip="Java API for building ECharts" activator="${base-uri}../products/html/bundles/org.nasdanika.html.echarts/apidocs/index.html"/>
@@ -181,7 +195,15 @@
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="ce086c71-5197-45f0-8b43-c9027142dda9" text="Knockout" tooltip="Java API for adding Knockout attributes to HTML elements to build single-page applications" activator="${base-uri}../products/html/bundles/org.nasdanika.html.knockout/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="56486289-c253-4922-ba96-aef24ae43929" text="Vinci" tooltip="EMF models and editors to visually model and then generate HTML pages and applications (web sites)">
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="f80faf11-35c7-45bb-8ffe-74f95941ab2f" text="Rigel" tooltip="Flow modeling" activator="rigel.html">
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="c274584b-d2e5-4353-9e3d-b183e526b673" text="Model" tooltip="Rigel model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="ac0a32b1-584c-4d4d-8bf3-08a288518518" text="Edit" tooltip="EMF.Edit item provider adapters for the rigel model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel.edit/apidocs/index.html"/>
+          </elements>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="c8e68171-1680-4beb-8bbc-6a73fde3f4bb" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel.design/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="e757219a-e303-4d3f-a966-5746cf5558df" text="Editor" tooltip="Rigel model editors" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel.editor/apidocs/index.html"/>
+          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
+        </elements>
+        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="56486289-c253-4922-ba96-aef24ae43929" text="Vinci" tooltip="EMF models and editors to visually model and then generate HTML pages and applications (web sites)" activator="vinci.html">
           <elements xsi:type="org.nasdanika.vinci.app:Action" id="a1c60a0a-e51d-4929-ba19-3c0841e30f36" text="App" tooltip="Application model provides a high level of abstraction for building HTML applications -  a hierarchy of actions" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.app/apidocs/index.html">
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="204a6a2c-1b78-43f2-951e-fd1383d7d360" text="Edit" tooltip="EMF.Edit item provider adapters for App model elements" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.app.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="2fdf4a5c-1d80-404f-85f0-32e7cbd69dc9" text="Gen" tooltip="Code generation adapters for App model elements" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.app.gen/apidocs/index.html"/>
@@ -202,20 +224,6 @@
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="0b36a017-4cfa-4139-80d5-d41b3978864c" text="Edit" tooltip="EMF.Edit item provider adapters for HTML model elements" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.html.edit/apidocs/index.html"/>
             <elements xsi:type="org.nasdanika.vinci.app:Action" id="5a3bfa38-8b93-4a92-b808-5ae5f7b5c173" text="Gen" tooltip="Code generation adapters for HTML model elements" activator="${base-uri}../products/vinci/bundles/org.nasdanika.vinci.html.gen/apidocs/index.html"/>
           </elements>
-          <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
-        </elements>
-        <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="f51e125c-06e0-49b5-b944-9dc164e345fd" text="Codegen" tooltip="EMF models and editors to visually model and then generate HTML pages and applications (web sites)">
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="0f29662b-c8b7-426a-aaa1-5134efaaf285" text="Model" tooltip="Code generation model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen/apidocs/index.html">
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="57747518-d517-4926-961e-848655576310" text="Edit" tooltip="EMF.Edit item provider adapters for the code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codgen.edit/apidocs/index.html"/>
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="34b22f14-2217-4b7c-a2c8-2649e3b25c2b" text="Gen" tooltip="Generation adapters for the code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.gen/apidocs/index.html"/>
-          </elements>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="14d317aa-b377-4892-9ef8-22185cd0b7e8" text="Java" tooltip="Java code generation model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.java/apidocs/index.html">
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="aa9a9291-10c9-4779-83bd-25e36d095de1" text="Edit" tooltip="EMF.Edit item provider adapters for the java code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codgen.java.edit/apidocs/index.html"/>
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="15b52391-12c3-4468-9c50-ad01ec5c8823" text="Gen" tooltip="Generation adapters for the java code generation model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.java.gen/apidocs/index.html"/>
-          </elements>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="ba40f2b1-8b94-4930-9e9f-0b8bd5f26d35" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.design/apidocs/index.html"/>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="37d1d7a8-8c04-424c-9d74-74c0ed979891" text="Editor" tooltip="Codegen model editors" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.editor/apidocs/index.html"/>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="dfc71aa1-dd14-4e19-b3de-fd9d154a7e10" text="CLI" tooltip="Command line interface" activator="${base-uri}../products/codegen/bundles/org.nasdanika.codegen.cli/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
