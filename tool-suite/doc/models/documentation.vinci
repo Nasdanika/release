@@ -25,6 +25,21 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="14eedcf4-b4e2-422e-a163-31206fa7866a" text="Configurator" activator="configurator.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/configurator.md"/>
               </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="72edff1f-b093-476f-9612-4955c30df111" text="Error" activator="error.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/error.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="642b8b89-5b06-49a8-ae96-8ad0b7df0257" text="Eval" activator="eval.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/eval.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="01178240-6e38-48ff-90e6-8292a776a428" text="Fail" activator="fail.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/fail.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="d404bd39-51d8-43e7-a86c-b0a0ebb1797a" text="If" activator="if.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/if.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="5627d3ad-f335-42c8-a4c0-5df383e84444" text="Info" activator="info.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/info.md"/>
+              </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="9a6b6658-01f2-40c2-9563-cfb23af08902" text="Iterator" activator="iterator.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/iterator.md"/>
               </elements>
@@ -36,6 +51,15 @@
               </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="b950c896-a082-47b7-85bd-aab5468a5cf0" text="Reference" activator="reference.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/reference.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="a1f21ff1-8459-42cc-8cd2-42cef07f22b6" text="Switch" activator="switch.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/switch.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="d695ca2b-eb66-48cb-8c89-b94665bf7d58" text="Try-Catch-Finally Block" activator="block.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/block.md"/>
+              </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="ca94d241-3e6a-4e5c-86aa-8a074d122109" text="Warning" activator="warning.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/warning.md"/>
               </elements>
               <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="6" tooltips="true"/>
             </elements>
