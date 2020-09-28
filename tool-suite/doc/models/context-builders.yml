@@ -64,10 +64,10 @@ mounts:
             - ../products/codegen/bundles/org.nasdanika.codegen.editor/apidocs/
 
             # Rigel
-            - ../products/codegen/bundles/org.nasdanika.rigel/apidocs/
-            - ../products/codegen/bundles/org.nasdanika.rigel.edit/apidocs/
-            - ../products/codegen/bundles/org.nasdanika.rigel.design/apidocs/
-            - ../products/codegen/bundles/org.nasdanika.rigel.editor/apidocs/
+            - ../products/rigel/bundles/org.nasdanika.rigel/apidocs/
+            - ../products/rigel/bundles/org.nasdanika.rigel.edit/apidocs/
+            - ../products/rigel/bundles/org.nasdanika.rigel.design/apidocs/
+            - ../products/rigel/bundles/org.nasdanika.rigel.editor/apidocs/
 
     ecore-doc/:
         id: org.nasdanika.vinci.cli/ecore-doc-context-builder

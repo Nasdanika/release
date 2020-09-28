@@ -220,11 +220,11 @@
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="f80faf11-35c7-45bb-8ffe-74f95941ab2f" text="Rigel" tooltip="Flow modeling" activator="rigel.html">
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="c274584b-d2e5-4353-9e3d-b183e526b673" text="Model" tooltip="Rigel model" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel/apidocs/index.html">
-            <elements xsi:type="org.nasdanika.vinci.app:Action" id="ac0a32b1-584c-4d4d-8bf3-08a288518518" text="Edit" tooltip="EMF.Edit item provider adapters for the rigel model elements" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel.edit/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="c274584b-d2e5-4353-9e3d-b183e526b673" text="Model" tooltip="Rigel model" activator="${base-uri}../products/rigel/bundles/org.nasdanika.rigel/apidocs/index.html">
+            <elements xsi:type="org.nasdanika.vinci.app:Action" id="ac0a32b1-584c-4d4d-8bf3-08a288518518" text="Edit" tooltip="EMF.Edit item provider adapters for the rigel model elements" activator="${base-uri}../products/rigel/bundles/org.nasdanika.rigel.edit/apidocs/index.html"/>
           </elements>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="c8e68171-1680-4beb-8bbc-6a73fde3f4bb" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel.design/apidocs/index.html"/>
-          <elements xsi:type="org.nasdanika.vinci.app:Action" id="e757219a-e303-4d3f-a966-5746cf5558df" text="Editor" tooltip="Rigel model editors" activator="${base-uri}../products/codegen/bundles/org.nasdanika.rigel.editor/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="c8e68171-1680-4beb-8bbc-6a73fde3f4bb" text="Design" tooltip="Sirius design bundle" activator="${base-uri}../products/rigel/bundles/org.nasdanika.rigel.design/apidocs/index.html"/>
+          <elements xsi:type="org.nasdanika.vinci.app:Action" id="e757219a-e303-4d3f-a966-5746cf5558df" text="Editor" tooltip="Rigel model editors" activator="${base-uri}../products/rigel/bundles/org.nasdanika.rigel.editor/apidocs/index.html"/>
           <content xsi:type="org.nasdanika.vinci.components:ListOfContents" depth="5" tooltips="true"/>
         </elements>
         <elements xsi:type="org.nasdanika.vinci.app:Action" title="" id="56486289-c253-4922-ba96-aef24ae43929" text="Vinci" tooltip="EMF models and editors to visually model and then generate HTML pages and applications (web sites)" activator="vinci.html">
