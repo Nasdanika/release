@@ -26,9 +26,9 @@
 	</prerequisites>
 
 	<properties>
-		<tycho-version>1.7.0</tycho-version>
-		<eclipse-repo>https://download.eclipse.org/releases/2020-06</eclipse-repo>
-		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository</orbit-repo>
+		<tycho-version>2.0.0</tycho-version>
+		<eclipse-repo>https://download.eclipse.org/releases/2020-09</eclipse-repo>
+		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200831200620/repository</orbit-repo>
 	</properties>
 
 	<repositories>

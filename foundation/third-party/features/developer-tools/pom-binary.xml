@@ -7,13 +7,12 @@
 	<version>2020.12.00-SNAPSHOT</version>
 	
 	<properties>
-		<base-version>2020-06</base-version>
-		<eclipse-launcher>org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar</eclipse-launcher>
+		<base-version>2020-09</base-version>
 		<windows-binary-name>nasdanika-developer-tools-2020-12-win32-x86_64.zip</windows-binary-name>
-		<windows-open-jdk-binary-name>nasdanika-developer-tools-2020-12-open-jdk-8-win32-x86_64.zip</windows-open-jdk-binary-name>
+		<windows-open-jdk-binary-name>nasdanika-developer-tools-2020-12-open-jdk-11-win32-x86_64.zip</windows-open-jdk-binary-name>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-		
+
 	<name>Nasdanika Developer Tools Binary Distribution</name>
 	
 	<build>
@@ -50,7 +49,7 @@
 									includes="eclipse/**"/>
 
 								<!-- Bundle Open JDK -->
-								<get src="https://www.nasdanika.org/downloads/zulu8.48.0.53-ca-jdk8.0.265-win_x64.zip" dest="${project.build.directory}/open-jdk.zip"/>
+								<get src="https://www.nasdanika.org/downloads/zulu11.41.23-ca-jdk11.0.8-win_x64.zip" dest="${project.build.directory}/open-jdk.zip"/>
 								<unzip src="${project.build.directory}/open-jdk.zip" dest="${project.build.directory}/eclipse/jdk"/>
 								<copy 
 									overwrite="true"

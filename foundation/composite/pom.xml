@@ -27,8 +27,8 @@
 	</prerequisites>
 
 	<properties>
-		<eclipse-repo>http://download.eclipse.org/releases/2020-06</eclipse-repo>
-		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200529191137/repository</orbit-repo>
+		<eclipse-repo>http://download.eclipse.org/releases/2020-09</eclipse-repo>
+		<orbit-repo>https://download.eclipse.org/tools/orbit/downloads/drops/R20200831200620/repository</orbit-repo>
 	</properties>
 
 	<build>
