@@ -34,6 +34,9 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="01178240-6e38-48ff-90e6-8292a776a428" text="Fail" activator="fail.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/fail.md"/>
               </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="e5ea974e-29e2-11eb-adc1-0242ac120002" text="Group" activator="group.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/group.md"/>
+              </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="d404bd39-51d8-43e7-a86c-b0a0ebb1797a" text="If" activator="if.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/if.md"/>
               </elements>
