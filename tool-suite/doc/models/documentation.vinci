@@ -85,6 +85,9 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="5812d280-e3d1-43bb-a6b2-e63489def6ef" text="JSON" activator="json.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/json.md"/>
               </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="f871e9b7-26a8-45ab-b533-70fa31179160" text="Markdown" activator="markdown.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/markdown.md"/>
+              </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="3fda903d-25e7-489b-b661-0884c444b04e" text="Mustache" activator="mustache.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/content/mustache.md"/>
               </elements>
