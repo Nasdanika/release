@@ -149,6 +149,7 @@
 									<arg value="documentation"/>
 									<arg value="ecore"/>
 									<arg value="-J"/>
+									<arg value="-n"/>
 									<arg value="-p"/>
 									<arg value="${project.build.directory}\ecore-doc-model-progress.txt"/>									
 									<arg value="-o"/>
