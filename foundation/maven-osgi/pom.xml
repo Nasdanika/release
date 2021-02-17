@@ -84,10 +84,10 @@
 											<id>io.github.azagniotov:ant-style-path-matcher:jar:1.0.0</id>
 										</artifact>
 										<artifact>
-											<id>info.picocli:picocli:jar:4.6.1</id>
+											<id>info.picocli:picocli:jar:4.5.2</id>
 										</artifact>
 										<artifact>
-											<id>org.fusesource.jansi:jansi:jar:2.3.1</id>
+											<id>org.fusesource.jansi:jansi:jar:1.18</id>
 										</artifact>
 									</artifacts>
 								</feature>
