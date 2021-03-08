@@ -22,6 +22,9 @@
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="c05e9709-6af2-4f4d-988e-ad56acc5fb6f" text="Loader" activator="loader.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/loader.md"/>
               </elements>
+              <elements xsi:type="org.nasdanika.vinci.app:Action" id="14eedcf4-b4e2-422e-a163-31206fa7866a-call" text="Call" activator="call.html">
+                <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/call.md"/>
+              </elements>
               <elements xsi:type="org.nasdanika.vinci.app:Action" id="14eedcf4-b4e2-422e-a163-31206fa7866a" text="Configurator" activator="configurator.html">
                 <content xsi:type="org.nasdanika.vinci.components:MarkdownResource" style="true" interpolate="true" location="platform:/plugin/org.nasdanika.exec/doc/configurator.md"/>
               </elements>
