@@ -78,7 +78,7 @@
 											<id>org.json:json:20200518</id>
 										</artifact>
 										<artifact>
-											<id>net.sourceforge.plantuml:plantuml:1.2021.1</id>
+											<id>net.sourceforge.plantuml:plantuml:1.2021.6</id>
 										</artifact>
 										<artifact>
 											<id>io.github.azagniotov:ant-style-path-matcher:jar:1.0.0</id>
